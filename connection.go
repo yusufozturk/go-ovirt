@@ -57,22 +57,12 @@ type Connection struct {
 	timeout  time.Duration
 	compress bool
 
-	// http client
-	client *http.Client
+	// http Client
+	Client *http.Client
 
 	// SSO attributes
 	ssoToken     string
 	ssoTokenName string
-}
-
-// GetClient returns the http client
-func (c *Connection) GetClient() *http.Client {
-	return c.client
-}
-
-// GetClient returns the http client
-func (c *Connection) SetClient(_client *http.Client) {
-	c.client = _client
 }
 
 // URL returns the base URL of this connection.
@@ -262,7 +252,7 @@ func (c *Connection) getSsoResponse(inputURL *url.URL, parameters map[string]str
 	req.Header.Add("Accept", "application/json")
 
 	// Send the request and wait for the response:
-	resp, err := c.client.Do(req)
+	resp, err := c.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -576,7 +566,7 @@ func (connBuilder *ConnectionBuilder) Build() (*Connection, error) {
 			}
 		}
 	}
-	connBuilder.conn.client = &http.Client{
+	connBuilder.conn.Client = &http.Client{
 		Timeout: connBuilder.conn.timeout,
 		Transport: &http.Transport{
 			// Close the http connection after calling resp.Body.Close()

@@ -175,7 +175,7 @@ func (p *AffinityGroupHostLabelServiceRemoveRequest) Send() (*AffinityGroupHostL
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupHostLabelService.connection.client.Do(req)
+	resp, err := p.AffinityGroupHostLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -335,7 +335,7 @@ func (p *AffinityGroupHostLabelsServiceAddRequest) Send() (*AffinityGroupHostLab
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupHostLabelsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupHostLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -505,7 +505,7 @@ func (p *AffinityGroupHostLabelsServiceListRequest) Send() (*AffinityGroupHostLa
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupHostLabelsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupHostLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -685,7 +685,7 @@ func (p *AffinityGroupHostServiceRemoveRequest) Send() (*AffinityGroupHostServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupHostService.connection.client.Do(req)
+	resp, err := p.AffinityGroupHostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -845,7 +845,7 @@ func (p *AffinityGroupHostsServiceAddRequest) Send() (*AffinityGroupHostsService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupHostsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupHostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -1015,7 +1015,7 @@ func (p *AffinityGroupHostsServiceListRequest) Send() (*AffinityGroupHostsServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupHostsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupHostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -1204,7 +1204,7 @@ func (p *AffinityGroupServiceGetRequest) Send() (*AffinityGroupServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupService.connection.client.Do(req)
+	resp, err := p.AffinityGroupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -1365,7 +1365,7 @@ func (p *AffinityGroupServiceRemoveRequest) Send() (*AffinityGroupServiceRemoveR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupService.connection.client.Do(req)
+	resp, err := p.AffinityGroupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -1505,7 +1505,7 @@ func (p *AffinityGroupServiceUpdateRequest) Send() (*AffinityGroupServiceUpdateR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupService.connection.client.Do(req)
+	resp, err := p.AffinityGroupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -1732,7 +1732,7 @@ func (p *AffinityGroupVmLabelServiceRemoveRequest) Send() (*AffinityGroupVmLabel
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupVmLabelService.connection.client.Do(req)
+	resp, err := p.AffinityGroupVmLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -1892,7 +1892,7 @@ func (p *AffinityGroupVmLabelsServiceAddRequest) Send() (*AffinityGroupVmLabelsS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupVmLabelsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupVmLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -2062,7 +2062,7 @@ func (p *AffinityGroupVmLabelsServiceListRequest) Send() (*AffinityGroupVmLabels
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupVmLabelsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupVmLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -2242,7 +2242,7 @@ func (p *AffinityGroupVmServiceRemoveRequest) Send() (*AffinityGroupVmServiceRem
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupVmService.connection.client.Do(req)
+	resp, err := p.AffinityGroupVmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -2402,7 +2402,7 @@ func (p *AffinityGroupVmsServiceAddRequest) Send() (*AffinityGroupVmsServiceAddR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupVmsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupVmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -2572,7 +2572,7 @@ func (p *AffinityGroupVmsServiceListRequest) Send() (*AffinityGroupVmsServiceLis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupVmsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupVmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -2774,7 +2774,7 @@ func (p *AffinityGroupsServiceAddRequest) Send() (*AffinityGroupsServiceAddRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -2962,7 +2962,7 @@ func (p *AffinityGroupsServiceListRequest) Send() (*AffinityGroupsServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityGroupsService.connection.client.Do(req)
+	resp, err := p.AffinityGroupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -3144,7 +3144,7 @@ func (p *AffinityLabelHostServiceGetRequest) Send() (*AffinityLabelHostServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelHostService.connection.client.Do(req)
+	resp, err := p.AffinityLabelHostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -3273,7 +3273,7 @@ func (p *AffinityLabelHostServiceRemoveRequest) Send() (*AffinityLabelHostServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelHostService.connection.client.Do(req)
+	resp, err := p.AffinityLabelHostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -3425,7 +3425,7 @@ func (p *AffinityLabelHostsServiceAddRequest) Send() (*AffinityLabelHostsService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelHostsService.connection.client.Do(req)
+	resp, err := p.AffinityLabelHostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -3565,7 +3565,7 @@ func (p *AffinityLabelHostsServiceListRequest) Send() (*AffinityLabelHostsServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelHostsService.connection.client.Do(req)
+	resp, err := p.AffinityLabelHostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -3746,7 +3746,7 @@ func (p *AffinityLabelServiceGetRequest) Send() (*AffinityLabelServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelService.connection.client.Do(req)
+	resp, err := p.AffinityLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -3876,7 +3876,7 @@ func (p *AffinityLabelServiceRemoveRequest) Send() (*AffinityLabelServiceRemoveR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelService.connection.client.Do(req)
+	resp, err := p.AffinityLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -4001,7 +4001,7 @@ func (p *AffinityLabelServiceUpdateRequest) Send() (*AffinityLabelServiceUpdateR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelService.connection.client.Do(req)
+	resp, err := p.AffinityLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -4198,7 +4198,7 @@ func (p *AffinityLabelVmServiceGetRequest) Send() (*AffinityLabelVmServiceGetRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelVmService.connection.client.Do(req)
+	resp, err := p.AffinityLabelVmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -4327,7 +4327,7 @@ func (p *AffinityLabelVmServiceRemoveRequest) Send() (*AffinityLabelVmServiceRem
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelVmService.connection.client.Do(req)
+	resp, err := p.AffinityLabelVmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -4479,7 +4479,7 @@ func (p *AffinityLabelVmsServiceAddRequest) Send() (*AffinityLabelVmsServiceAddR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelVmsService.connection.client.Do(req)
+	resp, err := p.AffinityLabelVmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -4619,7 +4619,7 @@ func (p *AffinityLabelVmsServiceListRequest) Send() (*AffinityLabelVmsServiceLis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelVmsService.connection.client.Do(req)
+	resp, err := p.AffinityLabelVmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -4804,7 +4804,7 @@ func (p *AffinityLabelsServiceAddRequest) Send() (*AffinityLabelsServiceAddRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelsService.connection.client.Do(req)
+	resp, err := p.AffinityLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -4956,7 +4956,7 @@ func (p *AffinityLabelsServiceListRequest) Send() (*AffinityLabelsServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AffinityLabelsService.connection.client.Do(req)
+	resp, err := p.AffinityLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -5137,7 +5137,7 @@ func (p *AssignedAffinityLabelServiceGetRequest) Send() (*AssignedAffinityLabelS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedAffinityLabelService.connection.client.Do(req)
+	resp, err := p.AssignedAffinityLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -5266,7 +5266,7 @@ func (p *AssignedAffinityLabelServiceRemoveRequest) Send() (*AssignedAffinityLab
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedAffinityLabelService.connection.client.Do(req)
+	resp, err := p.AssignedAffinityLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -5417,7 +5417,7 @@ func (p *AssignedAffinityLabelsServiceAddRequest) Send() (*AssignedAffinityLabel
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedAffinityLabelsService.connection.client.Do(req)
+	resp, err := p.AssignedAffinityLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -5557,7 +5557,7 @@ func (p *AssignedAffinityLabelsServiceListRequest) Send() (*AssignedAffinityLabe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedAffinityLabelsService.connection.client.Do(req)
+	resp, err := p.AssignedAffinityLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -5736,7 +5736,7 @@ func (p *AssignedCpuProfileServiceGetRequest) Send() (*AssignedCpuProfileService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedCpuProfileService.connection.client.Do(req)
+	resp, err := p.AssignedCpuProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -5872,7 +5872,7 @@ func (p *AssignedCpuProfileServiceRemoveRequest) Send() (*AssignedCpuProfileServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedCpuProfileService.connection.client.Do(req)
+	resp, err := p.AssignedCpuProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -6019,7 +6019,7 @@ func (p *AssignedCpuProfilesServiceAddRequest) Send() (*AssignedCpuProfilesServi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedCpuProfilesService.connection.client.Do(req)
+	resp, err := p.AssignedCpuProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -6169,7 +6169,7 @@ func (p *AssignedCpuProfilesServiceListRequest) Send() (*AssignedCpuProfilesServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedCpuProfilesService.connection.client.Do(req)
+	resp, err := p.AssignedCpuProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -6346,7 +6346,7 @@ func (p *AssignedDiskProfileServiceGetRequest) Send() (*AssignedDiskProfileServi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedDiskProfileService.connection.client.Do(req)
+	resp, err := p.AssignedDiskProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -6482,7 +6482,7 @@ func (p *AssignedDiskProfileServiceRemoveRequest) Send() (*AssignedDiskProfileSe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedDiskProfileService.connection.client.Do(req)
+	resp, err := p.AssignedDiskProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -6629,7 +6629,7 @@ func (p *AssignedDiskProfilesServiceAddRequest) Send() (*AssignedDiskProfilesSer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedDiskProfilesService.connection.client.Do(req)
+	resp, err := p.AssignedDiskProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -6779,7 +6779,7 @@ func (p *AssignedDiskProfilesServiceListRequest) Send() (*AssignedDiskProfilesSe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedDiskProfilesService.connection.client.Do(req)
+	resp, err := p.AssignedDiskProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -7006,7 +7006,7 @@ func (p *AssignedPermissionsServiceAddRequest) Send() (*AssignedPermissionsServi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -7241,7 +7241,7 @@ func (p *AssignedPermissionsServiceAddClusterPermissionRequest) Send() (*Assigne
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -7383,7 +7383,7 @@ func (p *AssignedPermissionsServiceAddDataCenterPermissionRequest) Send() (*Assi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -7525,7 +7525,7 @@ func (p *AssignedPermissionsServiceAddGroupLevelRequest) Send() (*AssignedPermis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -7667,7 +7667,7 @@ func (p *AssignedPermissionsServiceAddHostPermissionRequest) Send() (*AssignedPe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -7823,7 +7823,7 @@ func (p *AssignedPermissionsServiceListRequest) Send() (*AssignedPermissionsServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -8008,7 +8008,7 @@ func (p *AssignedPermissionsServiceAddStorageDomainPermissionRequest) Send() (*A
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -8150,7 +8150,7 @@ func (p *AssignedPermissionsServiceAddTemplatePermissionRequest) Send() (*Assign
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -8292,7 +8292,7 @@ func (p *AssignedPermissionsServiceAddUserLevelRequest) Send() (*AssignedPermiss
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -8434,7 +8434,7 @@ func (p *AssignedPermissionsServiceAddVmPermissionRequest) Send() (*AssignedPerm
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -8576,7 +8576,7 @@ func (p *AssignedPermissionsServiceAddVmPoolPermissionRequest) Send() (*Assigned
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedPermissionsService.connection.client.Do(req)
+	resp, err := p.AssignedPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -8763,7 +8763,7 @@ func (p *AssignedRolesServiceListRequest) Send() (*AssignedRolesServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedRolesService.connection.client.Do(req)
+	resp, err := p.AssignedRolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -8956,7 +8956,7 @@ func (p *AssignedTagServiceGetRequest) Send() (*AssignedTagServiceGetResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedTagService.connection.client.Do(req)
+	resp, err := p.AssignedTagService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -9125,7 +9125,7 @@ func (p *AssignedTagServiceRemoveRequest) Send() (*AssignedTagServiceRemoveRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedTagService.connection.client.Do(req)
+	resp, err := p.AssignedTagService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -9294,7 +9294,7 @@ func (p *AssignedTagsServiceAddRequest) Send() (*AssignedTagsServiceAddResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedTagsService.connection.client.Do(req)
+	resp, err := p.AssignedTagsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -9480,7 +9480,7 @@ func (p *AssignedTagsServiceListRequest) Send() (*AssignedTagsServiceListRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedTagsService.connection.client.Do(req)
+	resp, err := p.AssignedTagsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -9686,7 +9686,7 @@ func (p *AssignedVnicProfileServiceGetRequest) Send() (*AssignedVnicProfileServi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedVnicProfileService.connection.client.Do(req)
+	resp, err := p.AssignedVnicProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -9822,7 +9822,7 @@ func (p *AssignedVnicProfileServiceRemoveRequest) Send() (*AssignedVnicProfileSe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedVnicProfileService.connection.client.Do(req)
+	resp, err := p.AssignedVnicProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -9981,7 +9981,7 @@ func (p *AssignedVnicProfilesServiceAddRequest) Send() (*AssignedVnicProfilesSer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedVnicProfilesService.connection.client.Do(req)
+	resp, err := p.AssignedVnicProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -10131,7 +10131,7 @@ func (p *AssignedVnicProfilesServiceListRequest) Send() (*AssignedVnicProfilesSe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AssignedVnicProfilesService.connection.client.Do(req)
+	resp, err := p.AssignedVnicProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -10330,7 +10330,7 @@ func (p *AttachedStorageDomainDiskServiceCopyRequest) Send() (*AttachedStorageDo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -10465,7 +10465,7 @@ func (p *AttachedStorageDomainDiskServiceExportRequest) Send() (*AttachedStorage
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -10591,7 +10591,7 @@ func (p *AttachedStorageDomainDiskServiceGetRequest) Send() (*AttachedStorageDom
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -10757,7 +10757,7 @@ func (p *AttachedStorageDomainDiskServiceMoveRequest) Send() (*AttachedStorageDo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -10882,7 +10882,7 @@ func (p *AttachedStorageDomainDiskServiceRegisterRequest) Send() (*AttachedStora
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -10995,7 +10995,7 @@ func (p *AttachedStorageDomainDiskServiceRemoveRequest) Send() (*AttachedStorage
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -11122,7 +11122,7 @@ func (p *AttachedStorageDomainDiskServiceSparsifyRequest) Send() (*AttachedStora
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -11254,7 +11254,7 @@ func (p *AttachedStorageDomainDiskServiceUpdateRequest) Send() (*AttachedStorage
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -11470,7 +11470,7 @@ func (p *AttachedStorageDomainDisksServiceAddRequest) Send() (*AttachedStorageDo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDisksService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -11629,7 +11629,7 @@ func (p *AttachedStorageDomainDisksServiceListRequest) Send() (*AttachedStorageD
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainDisksService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -11825,7 +11825,7 @@ func (p *AttachedStorageDomainServiceActivateRequest) Send() (*AttachedStorageDo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -11998,7 +11998,7 @@ func (p *AttachedStorageDomainServiceDeactivateRequest) Send() (*AttachedStorage
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -12145,7 +12145,7 @@ func (p *AttachedStorageDomainServiceGetRequest) Send() (*AttachedStorageDomainS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -12281,7 +12281,7 @@ func (p *AttachedStorageDomainServiceRemoveRequest) Send() (*AttachedStorageDoma
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -12441,7 +12441,7 @@ func (p *AttachedStorageDomainsServiceAddRequest) Send() (*AttachedStorageDomain
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainsService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -12591,7 +12591,7 @@ func (p *AttachedStorageDomainsServiceListRequest) Send() (*AttachedStorageDomai
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.AttachedStorageDomainsService.connection.client.Do(req)
+	resp, err := p.AttachedStorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -12778,7 +12778,7 @@ func (p *BalanceServiceGetRequest) Send() (*BalanceServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BalanceService.connection.client.Do(req)
+	resp, err := p.BalanceService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -12914,7 +12914,7 @@ func (p *BalanceServiceRemoveRequest) Send() (*BalanceServiceRemoveResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BalanceService.connection.client.Do(req)
+	resp, err := p.BalanceService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -13061,7 +13061,7 @@ func (p *BalancesServiceAddRequest) Send() (*BalancesServiceAddResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BalancesService.connection.client.Do(req)
+	resp, err := p.BalancesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -13221,7 +13221,7 @@ func (p *BalancesServiceListRequest) Send() (*BalancesServiceListResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BalancesService.connection.client.Do(req)
+	resp, err := p.BalancesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -13412,7 +13412,7 @@ func (p *BookmarkServiceGetRequest) Send() (*BookmarkServiceGetResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BookmarkService.connection.client.Do(req)
+	resp, err := p.BookmarkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -13580,7 +13580,7 @@ func (p *BookmarkServiceRemoveRequest) Send() (*BookmarkServiceRemoveResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BookmarkService.connection.client.Do(req)
+	resp, err := p.BookmarkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -13735,7 +13735,7 @@ func (p *BookmarkServiceUpdateRequest) Send() (*BookmarkServiceUpdateResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BookmarkService.connection.client.Do(req)
+	resp, err := p.BookmarkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -13943,7 +13943,7 @@ func (p *BookmarksServiceAddRequest) Send() (*BookmarksServiceAddResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BookmarksService.connection.client.Do(req)
+	resp, err := p.BookmarksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -14135,7 +14135,7 @@ func (p *BookmarksServiceListRequest) Send() (*BookmarksServiceListResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.BookmarksService.connection.client.Do(req)
+	resp, err := p.BookmarksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -14363,7 +14363,7 @@ func (p *ClusterEnabledFeatureServiceGetRequest) Send() (*ClusterEnabledFeatureS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterEnabledFeatureService.connection.client.Do(req)
+	resp, err := p.ClusterEnabledFeatureService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -14521,7 +14521,7 @@ func (p *ClusterEnabledFeatureServiceRemoveRequest) Send() (*ClusterEnabledFeatu
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterEnabledFeatureService.connection.client.Do(req)
+	resp, err := p.ClusterEnabledFeatureService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -14692,7 +14692,7 @@ func (p *ClusterEnabledFeaturesServiceAddRequest) Send() (*ClusterEnabledFeature
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterEnabledFeaturesService.connection.client.Do(req)
+	resp, err := p.ClusterEnabledFeaturesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -14866,7 +14866,7 @@ func (p *ClusterEnabledFeaturesServiceListRequest) Send() (*ClusterEnabledFeatur
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterEnabledFeaturesService.connection.client.Do(req)
+	resp, err := p.ClusterEnabledFeaturesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -15076,7 +15076,7 @@ func (p *ClusterExternalProvidersServiceListRequest) Send() (*ClusterExternalPro
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterExternalProvidersService.connection.client.Do(req)
+	resp, err := p.ClusterExternalProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -15257,7 +15257,7 @@ func (p *ClusterFeatureServiceGetRequest) Send() (*ClusterFeatureServiceGetRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterFeatureService.connection.client.Do(req)
+	resp, err := p.ClusterFeatureService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -15462,7 +15462,7 @@ func (p *ClusterFeaturesServiceListRequest) Send() (*ClusterFeaturesServiceListR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterFeaturesService.connection.client.Do(req)
+	resp, err := p.ClusterFeaturesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -15696,7 +15696,7 @@ func (p *ClusterLevelServiceGetRequest) Send() (*ClusterLevelServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterLevelService.connection.client.Do(req)
+	resp, err := p.ClusterLevelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -15947,7 +15947,7 @@ func (p *ClusterLevelsServiceListRequest) Send() (*ClusterLevelsServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterLevelsService.connection.client.Do(req)
+	resp, err := p.ClusterLevelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -16155,7 +16155,7 @@ func (p *ClusterNetworkServiceGetRequest) Send() (*ClusterNetworkServiceGetRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterNetworkService.connection.client.Do(req)
+	resp, err := p.ClusterNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -16284,7 +16284,7 @@ func (p *ClusterNetworkServiceRemoveRequest) Send() (*ClusterNetworkServiceRemov
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterNetworkService.connection.client.Do(req)
+	resp, err := p.ClusterNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -16406,7 +16406,7 @@ func (p *ClusterNetworkServiceUpdateRequest) Send() (*ClusterNetworkServiceUpdat
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterNetworkService.connection.client.Do(req)
+	resp, err := p.ClusterNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -16586,7 +16586,7 @@ func (p *ClusterNetworksServiceAddRequest) Send() (*ClusterNetworksServiceAddRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterNetworksService.connection.client.Do(req)
+	resp, err := p.ClusterNetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -16756,7 +16756,7 @@ func (p *ClusterNetworksServiceListRequest) Send() (*ClusterNetworksServiceListR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterNetworksService.connection.client.Do(req)
+	resp, err := p.ClusterNetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -17019,7 +17019,7 @@ func (p *ClusterServiceGetRequest) Send() (*ClusterServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterService.connection.client.Do(req)
+	resp, err := p.ClusterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -17309,7 +17309,7 @@ func (p *ClusterServiceRefreshGlusterHealStatusRequest) Send() (*ClusterServiceR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterService.connection.client.Do(req)
+	resp, err := p.ClusterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -17445,7 +17445,7 @@ func (p *ClusterServiceRemoveRequest) Send() (*ClusterServiceRemoveResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterService.connection.client.Do(req)
+	resp, err := p.ClusterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -17579,7 +17579,7 @@ func (p *ClusterServiceResetEmulatedMachineRequest) Send() (*ClusterServiceReset
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterService.connection.client.Do(req)
+	resp, err := p.ClusterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -17714,7 +17714,7 @@ func (p *ClusterServiceSyncAllNetworksRequest) Send() (*ClusterServiceSyncAllNet
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterService.connection.client.Do(req)
+	resp, err := p.ClusterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -17880,7 +17880,7 @@ func (p *ClusterServiceUpdateRequest) Send() (*ClusterServiceUpdateResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterService.connection.client.Do(req)
+	resp, err := p.ClusterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -18081,7 +18081,7 @@ func (p *ClusterServiceUpgradeRequest) Send() (*ClusterServiceUpgradeResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClusterService.connection.client.Do(req)
+	resp, err := p.ClusterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -18416,7 +18416,7 @@ func (p *ClustersServiceAddRequest) Send() (*ClustersServiceAddResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClustersService.connection.client.Do(req)
+	resp, err := p.ClustersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -18671,7 +18671,7 @@ func (p *ClustersServiceListRequest) Send() (*ClustersServiceListResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ClustersService.connection.client.Do(req)
+	resp, err := p.ClustersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -18859,7 +18859,7 @@ func (p *CopyableServiceCopyRequest) Send() (*CopyableServiceCopyResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.CopyableService.connection.client.Do(req)
+	resp, err := p.CopyableService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -19003,7 +19003,7 @@ func (p *CpuProfileServiceGetRequest) Send() (*CpuProfileServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.CpuProfileService.connection.client.Do(req)
+	resp, err := p.CpuProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -19139,7 +19139,7 @@ func (p *CpuProfileServiceRemoveRequest) Send() (*CpuProfileServiceRemoveRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.CpuProfileService.connection.client.Do(req)
+	resp, err := p.CpuProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -19269,7 +19269,7 @@ func (p *CpuProfileServiceUpdateRequest) Send() (*CpuProfileServiceUpdateRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.CpuProfileService.connection.client.Do(req)
+	resp, err := p.CpuProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -19450,7 +19450,7 @@ func (p *CpuProfilesServiceAddRequest) Send() (*CpuProfilesServiceAddResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.CpuProfilesService.connection.client.Do(req)
+	resp, err := p.CpuProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -19600,7 +19600,7 @@ func (p *CpuProfilesServiceListRequest) Send() (*CpuProfilesServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.CpuProfilesService.connection.client.Do(req)
+	resp, err := p.CpuProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -19779,7 +19779,7 @@ func (p *DataCenterNetworkServiceGetRequest) Send() (*DataCenterNetworkServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterNetworkService.connection.client.Do(req)
+	resp, err := p.DataCenterNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -19908,7 +19908,7 @@ func (p *DataCenterNetworkServiceRemoveRequest) Send() (*DataCenterNetworkServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterNetworkService.connection.client.Do(req)
+	resp, err := p.DataCenterNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -20030,7 +20030,7 @@ func (p *DataCenterNetworkServiceUpdateRequest) Send() (*DataCenterNetworkServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterNetworkService.connection.client.Do(req)
+	resp, err := p.DataCenterNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -20212,7 +20212,7 @@ func (p *DataCenterNetworksServiceAddRequest) Send() (*DataCenterNetworksService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterNetworksService.connection.client.Do(req)
+	resp, err := p.DataCenterNetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -20386,7 +20386,7 @@ func (p *DataCenterNetworksServiceListRequest) Send() (*DataCenterNetworksServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterNetworksService.connection.client.Do(req)
+	resp, err := p.DataCenterNetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -20586,7 +20586,7 @@ func (p *DataCenterServiceCleanFinishedTasksRequest) Send() (*DataCenterServiceC
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterService.connection.client.Do(req)
+	resp, err := p.DataCenterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -20774,7 +20774,7 @@ func (p *DataCenterServiceGetRequest) Send() (*DataCenterServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterService.connection.client.Do(req)
+	resp, err := p.DataCenterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -21001,7 +21001,7 @@ func (p *DataCenterServiceRemoveRequest) Send() (*DataCenterServiceRemoveRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterService.connection.client.Do(req)
+	resp, err := p.DataCenterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -21169,7 +21169,7 @@ func (p *DataCenterServiceSetMasterRequest) Send() (*DataCenterServiceSetMasterR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterService.connection.client.Do(req)
+	resp, err := p.DataCenterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -21344,7 +21344,7 @@ func (p *DataCenterServiceUpdateRequest) Send() (*DataCenterServiceUpdateRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCenterService.connection.client.Do(req)
+	resp, err := p.DataCenterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -21663,7 +21663,7 @@ func (p *DataCentersServiceAddRequest) Send() (*DataCentersServiceAddResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCentersService.connection.client.Do(req)
+	resp, err := p.DataCentersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -21920,7 +21920,7 @@ func (p *DataCentersServiceListRequest) Send() (*DataCentersServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DataCentersService.connection.client.Do(req)
+	resp, err := p.DataCentersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -22213,7 +22213,7 @@ func (p *DiskAttachmentServiceGetRequest) Send() (*DiskAttachmentServiceGetRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskAttachmentService.connection.client.Do(req)
+	resp, err := p.DiskAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -22389,7 +22389,7 @@ func (p *DiskAttachmentServiceRemoveRequest) Send() (*DiskAttachmentServiceRemov
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskAttachmentService.connection.client.Do(req)
+	resp, err := p.DiskAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -22539,7 +22539,7 @@ func (p *DiskAttachmentServiceUpdateRequest) Send() (*DiskAttachmentServiceUpdat
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskAttachmentService.connection.client.Do(req)
+	resp, err := p.DiskAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -22775,7 +22775,7 @@ func (p *DiskAttachmentsServiceAddRequest) Send() (*DiskAttachmentsServiceAddRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskAttachmentsService.connection.client.Do(req)
+	resp, err := p.DiskAttachmentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -22987,7 +22987,7 @@ func (p *DiskAttachmentsServiceListRequest) Send() (*DiskAttachmentsServiceListR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskAttachmentsService.connection.client.Do(req)
+	resp, err := p.DiskAttachmentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -23133,7 +23133,7 @@ func (p *DiskAttachmentsServiceAddProvidingDiskIdRequest) Send() (*DiskAttachmen
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskAttachmentsService.connection.client.Do(req)
+	resp, err := p.DiskAttachmentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -23272,7 +23272,7 @@ func (p *DiskAttachmentsServiceAddSignature1Request) Send() (*DiskAttachmentsSer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskAttachmentsService.connection.client.Do(req)
+	resp, err := p.DiskAttachmentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -23443,7 +23443,7 @@ func (p *DiskProfileServiceGetRequest) Send() (*DiskProfileServiceGetResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskProfileService.connection.client.Do(req)
+	resp, err := p.DiskProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -23579,7 +23579,7 @@ func (p *DiskProfileServiceRemoveRequest) Send() (*DiskProfileServiceRemoveRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskProfileService.connection.client.Do(req)
+	resp, err := p.DiskProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -23709,7 +23709,7 @@ func (p *DiskProfileServiceUpdateRequest) Send() (*DiskProfileServiceUpdateRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskProfileService.connection.client.Do(req)
+	resp, err := p.DiskProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -23890,7 +23890,7 @@ func (p *DiskProfilesServiceAddRequest) Send() (*DiskProfilesServiceAddResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskProfilesService.connection.client.Do(req)
+	resp, err := p.DiskProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -24040,7 +24040,7 @@ func (p *DiskProfilesServiceListRequest) Send() (*DiskProfilesServiceListRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskProfilesService.connection.client.Do(req)
+	resp, err := p.DiskProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -24290,7 +24290,7 @@ func (p *DiskServiceCopyRequest) Send() (*DiskServiceCopyResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -24486,7 +24486,7 @@ func (p *DiskServiceExportRequest) Send() (*DiskServiceExportResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -24616,7 +24616,7 @@ func (p *DiskServiceGetRequest) Send() (*DiskServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -24821,7 +24821,7 @@ func (p *DiskServiceMoveRequest) Send() (*DiskServiceMoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -25008,7 +25008,7 @@ func (p *DiskServiceReduceRequest) Send() (*DiskServiceReduceResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -25156,7 +25156,7 @@ func (p *DiskServiceRefreshLunRequest) Send() (*DiskServiceRefreshLunResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -25308,7 +25308,7 @@ func (p *DiskServiceRemoveRequest) Send() (*DiskServiceRemoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -25430,7 +25430,7 @@ func (p *DiskServiceSparsifyRequest) Send() (*DiskServiceSparsifyResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -25582,7 +25582,7 @@ func (p *DiskServiceUpdateRequest) Send() (*DiskServiceUpdateResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskService.connection.client.Do(req)
+	resp, err := p.DiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -25835,7 +25835,7 @@ func (p *DiskSnapshotServiceGetRequest) Send() (*DiskSnapshotServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskSnapshotService.connection.client.Do(req)
+	resp, err := p.DiskSnapshotService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -25971,7 +25971,7 @@ func (p *DiskSnapshotServiceRemoveRequest) Send() (*DiskSnapshotServiceRemoveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskSnapshotService.connection.client.Do(req)
+	resp, err := p.DiskSnapshotService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -26137,7 +26137,7 @@ func (p *DiskSnapshotsServiceListRequest) Send() (*DiskSnapshotsServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DiskSnapshotsService.connection.client.Do(req)
+	resp, err := p.DiskSnapshotsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -26440,7 +26440,7 @@ func (p *DisksServiceAddRequest) Send() (*DisksServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DisksService.connection.client.Do(req)
+	resp, err := p.DisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -26880,7 +26880,7 @@ func (p *DisksServiceListRequest) Send() (*DisksServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DisksService.connection.client.Do(req)
+	resp, err := p.DisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -27083,7 +27083,7 @@ func (p *DisksServiceAddLunRequest) Send() (*DisksServiceAddLunResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DisksService.connection.client.Do(req)
+	resp, err := p.DisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -27225,7 +27225,7 @@ func (p *DisksServiceAddOnStorageDomainRequest) Send() (*DisksServiceAddOnStorag
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DisksService.connection.client.Do(req)
+	resp, err := p.DisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -27424,7 +27424,7 @@ func (p *EventServiceGetRequest) Send() (*EventServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventService.connection.client.Do(req)
+	resp, err := p.EventService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -27616,7 +27616,7 @@ func (p *EventServiceRemoveRequest) Send() (*EventServiceRemoveResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventService.connection.client.Do(req)
+	resp, err := p.EventService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -27777,7 +27777,7 @@ func (p *EventSubscriptionServiceGetRequest) Send() (*EventSubscriptionServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventSubscriptionService.connection.client.Do(req)
+	resp, err := p.EventSubscriptionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -27948,7 +27948,7 @@ func (p *EventSubscriptionServiceRemoveRequest) Send() (*EventSubscriptionServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventSubscriptionService.connection.client.Do(req)
+	resp, err := p.EventSubscriptionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -28126,7 +28126,7 @@ func (p *EventSubscriptionsServiceAddRequest) Send() (*EventSubscriptionsService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventSubscriptionsService.connection.client.Do(req)
+	resp, err := p.EventSubscriptionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -28336,7 +28336,7 @@ func (p *EventSubscriptionsServiceListRequest) Send() (*EventSubscriptionsServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventSubscriptionsService.connection.client.Do(req)
+	resp, err := p.EventSubscriptionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -28588,7 +28588,7 @@ func (p *EventsServiceAddRequest) Send() (*EventsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventsService.connection.client.Do(req)
+	resp, err := p.EventsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -28867,7 +28867,7 @@ func (p *EventsServiceListRequest) Send() (*EventsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventsService.connection.client.Do(req)
+	resp, err := p.EventsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -29097,7 +29097,7 @@ func (p *EventsServiceUndeleteRequest) Send() (*EventsServiceUndeleteResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EventsService.connection.client.Do(req)
+	resp, err := p.EventsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -29254,7 +29254,7 @@ func (p *ExternalNetworkProviderConfigurationServiceGetRequest) Send() (*Externa
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalNetworkProviderConfigurationService.connection.client.Do(req)
+	resp, err := p.ExternalNetworkProviderConfigurationService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -29422,7 +29422,7 @@ func (p *ExternalNetworkProviderConfigurationsServiceListRequest) Send() (*Exter
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalNetworkProviderConfigurationsService.connection.client.Do(req)
+	resp, err := p.ExternalNetworkProviderConfigurationsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -29614,7 +29614,7 @@ func (p *ExternalProviderCertificateServiceGetRequest) Send() (*ExternalProvider
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalProviderCertificateService.connection.client.Do(req)
+	resp, err := p.ExternalProviderCertificateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -29831,7 +29831,7 @@ func (p *ExternalProviderCertificatesServiceListRequest) Send() (*ExternalProvid
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalProviderCertificatesService.connection.client.Do(req)
+	resp, err := p.ExternalProviderCertificatesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -30052,7 +30052,7 @@ func (p *ExternalProviderServiceImportCertificatesRequest) Send() (*ExternalProv
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalProviderService.connection.client.Do(req)
+	resp, err := p.ExternalProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -30185,7 +30185,7 @@ func (p *ExternalProviderServiceTestConnectivityRequest) Send() (*ExternalProvid
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalProviderService.connection.client.Do(req)
+	resp, err := p.ExternalProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -30378,7 +30378,7 @@ func (p *ExternalTemplateImportsServiceAddRequest) Send() (*ExternalTemplateImpo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalTemplateImportsService.connection.client.Do(req)
+	resp, err := p.ExternalTemplateImportsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -30607,7 +30607,7 @@ func (p *ExternalVmImportsServiceAddRequest) Send() (*ExternalVmImportsServiceAd
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalVmImportsService.connection.client.Do(req)
+	resp, err := p.ExternalVmImportsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -30837,7 +30837,7 @@ func (p *FenceAgentServiceGetRequest) Send() (*FenceAgentServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FenceAgentService.connection.client.Do(req)
+	resp, err := p.FenceAgentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -31014,7 +31014,7 @@ func (p *FenceAgentServiceRemoveRequest) Send() (*FenceAgentServiceRemoveRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FenceAgentService.connection.client.Do(req)
+	resp, err := p.FenceAgentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -31154,7 +31154,7 @@ func (p *FenceAgentServiceUpdateRequest) Send() (*FenceAgentServiceUpdateRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FenceAgentService.connection.client.Do(req)
+	resp, err := p.FenceAgentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -31375,7 +31375,7 @@ func (p *FenceAgentsServiceAddRequest) Send() (*FenceAgentsServiceAddResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FenceAgentsService.connection.client.Do(req)
+	resp, err := p.FenceAgentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -31646,7 +31646,7 @@ func (p *FenceAgentsServiceListRequest) Send() (*FenceAgentsServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FenceAgentsService.connection.client.Do(req)
+	resp, err := p.FenceAgentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -31863,7 +31863,7 @@ func (p *FileServiceGetRequest) Send() (*FileServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FileService.connection.client.Do(req)
+	resp, err := p.FileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -32084,7 +32084,7 @@ func (p *FilesServiceListRequest) Send() (*FilesServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FilesService.connection.client.Do(req)
+	resp, err := p.FilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -32295,7 +32295,7 @@ func (p *FilterServiceGetRequest) Send() (*FilterServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FilterService.connection.client.Do(req)
+	resp, err := p.FilterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -32431,7 +32431,7 @@ func (p *FilterServiceRemoveRequest) Send() (*FilterServiceRemoveResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FilterService.connection.client.Do(req)
+	resp, err := p.FilterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -32579,7 +32579,7 @@ func (p *FiltersServiceAddRequest) Send() (*FiltersServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FiltersService.connection.client.Do(req)
+	resp, err := p.FiltersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -32739,7 +32739,7 @@ func (p *FiltersServiceListRequest) Send() (*FiltersServiceListResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.FiltersService.connection.client.Do(req)
+	resp, err := p.FiltersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -32934,7 +32934,7 @@ func (p *HostDeviceServiceGetRequest) Send() (*HostDeviceServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostDeviceService.connection.client.Do(req)
+	resp, err := p.HostDeviceService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -33144,7 +33144,7 @@ func (p *HostDevicesServiceListRequest) Send() (*HostDevicesServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostDevicesService.connection.client.Do(req)
+	resp, err := p.HostDevicesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -33322,7 +33322,7 @@ func (p *HostHookServiceGetRequest) Send() (*HostHookServiceGetResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostHookService.connection.client.Do(req)
+	resp, err := p.HostHookService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -33497,7 +33497,7 @@ func (p *HostHooksServiceListRequest) Send() (*HostHooksServiceListResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostHooksService.connection.client.Do(req)
+	resp, err := p.HostHooksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -33685,7 +33685,7 @@ func (p *HostNicServiceGetRequest) Send() (*HostNicServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostNicService.connection.client.Do(req)
+	resp, err := p.HostNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -33841,7 +33841,7 @@ func (p *HostNicServiceUpdateVirtualFunctionsConfigurationRequest) Send() (*Host
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostNicService.connection.client.Do(req)
+	resp, err := p.HostNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -34097,7 +34097,7 @@ func (p *HostNicsServiceListRequest) Send() (*HostNicsServiceListResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostNicsService.connection.client.Do(req)
+	resp, err := p.HostNicsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -34275,7 +34275,7 @@ func (p *HostNumaNodeServiceGetRequest) Send() (*HostNumaNodeServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostNumaNodeService.connection.client.Do(req)
+	resp, err := p.HostNumaNodeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -34462,7 +34462,7 @@ func (p *HostNumaNodesServiceListRequest) Send() (*HostNumaNodesServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostNumaNodesService.connection.client.Do(req)
+	resp, err := p.HostNumaNodesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -34649,7 +34649,7 @@ func (p *HostServiceActivateRequest) Send() (*HostServiceActivateResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -34810,7 +34810,7 @@ func (p *HostServiceApproveRequest) Send() (*HostServiceApproveResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -34960,7 +34960,7 @@ func (p *HostServiceCommitNetConfigRequest) Send() (*HostServiceCommitNetConfigR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -35149,7 +35149,7 @@ func (p *HostServiceCopyHostNetworksRequest) Send() (*HostServiceCopyHostNetwork
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -35323,7 +35323,7 @@ func (p *HostServiceDeactivateRequest) Send() (*HostServiceDeactivateResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -35486,7 +35486,7 @@ func (p *HostServiceDiscoverIscsiRequest) Send() (*HostServiceDiscoverIscsiRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -35687,7 +35687,7 @@ func (p *HostServiceEnrollCertificateRequest) Send() (*HostServiceEnrollCertific
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -35857,7 +35857,7 @@ func (p *HostServiceFenceRequest) Send() (*HostServiceFenceResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -36054,7 +36054,7 @@ func (p *HostServiceForceSelectSpmRequest) Send() (*HostServiceForceSelectSpmRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -36216,7 +36216,7 @@ func (p *HostServiceGetRequest) Send() (*HostServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -36482,7 +36482,7 @@ func (p *HostServiceInstallRequest) Send() (*HostServiceInstallResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -36721,7 +36721,7 @@ func (p *HostServiceIscsiDiscoverRequest) Send() (*HostServiceIscsiDiscoverRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -36908,7 +36908,7 @@ func (p *HostServiceIscsiLoginRequest) Send() (*HostServiceIscsiLoginResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -37036,7 +37036,7 @@ func (p *HostServiceRefreshRequest) Send() (*HostServiceRefreshResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -37180,7 +37180,7 @@ func (p *HostServiceRemoveRequest) Send() (*HostServiceRemoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -37622,7 +37622,7 @@ func (p *HostServiceSetupNetworksRequest) Send() (*HostServiceSetupNetworksRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -38069,7 +38069,7 @@ func (p *HostServiceSyncAllNetworksRequest) Send() (*HostServiceSyncAllNetworksR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -38223,7 +38223,7 @@ func (p *HostServiceUnregisteredStorageDomainsDiscoverRequest) Send() (*HostServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -38388,7 +38388,7 @@ func (p *HostServiceUpdateRequest) Send() (*HostServiceUpdateResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -38590,7 +38590,7 @@ func (p *HostServiceUpgradeRequest) Send() (*HostServiceUpgradeResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -38712,7 +38712,7 @@ func (p *HostServiceUpgradeCheckRequest) Send() (*HostServiceUpgradeCheckRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -38877,7 +38877,7 @@ func (p *HostServiceApproveUsingRootPasswordRequest) Send() (*HostServiceApprove
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -39072,7 +39072,7 @@ func (p *HostServiceInstallUsingRootPasswordRequest) Send() (*HostServiceInstall
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -39209,7 +39209,7 @@ func (p *HostServiceUpdateUsingRootPasswordRequest) Send() (*HostServiceUpdateUs
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -39386,7 +39386,7 @@ func (p *HostServiceApproveUsingSshRequest) Send() (*HostServiceApproveUsingSshR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -39585,7 +39585,7 @@ func (p *HostServiceInstallUsingSshRequest) Send() (*HostServiceInstallUsingSshR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -39722,7 +39722,7 @@ func (p *HostServiceUpdateUsingSshRequest) Send() (*HostServiceUpdateUsingSshRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostService.connection.client.Do(req)
+	resp, err := p.HostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -40109,7 +40109,7 @@ func (p *HostStorageServiceListRequest) Send() (*HostStorageServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostStorageService.connection.client.Do(req)
+	resp, err := p.HostStorageService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -40409,7 +40409,7 @@ func (p *HostsServiceAddRequest) Send() (*HostsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostsService.connection.client.Do(req)
+	resp, err := p.HostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -40735,7 +40735,7 @@ func (p *HostsServiceListRequest) Send() (*HostsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostsService.connection.client.Do(req)
+	resp, err := p.HostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -40954,7 +40954,7 @@ func (p *HostsServiceAddUsingRootPasswordRequest) Send() (*HostsServiceAddUsingR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostsService.connection.client.Do(req)
+	resp, err := p.HostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -41132,7 +41132,7 @@ func (p *HostsServiceAddUsingSshRequest) Send() (*HostsServiceAddUsingSshRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.HostsService.connection.client.Do(req)
+	resp, err := p.HostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -41319,7 +41319,7 @@ func (p *IconServiceGetRequest) Send() (*IconServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.IconService.connection.client.Do(req)
+	resp, err := p.IconService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -41536,7 +41536,7 @@ func (p *IconsServiceListRequest) Send() (*IconsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.IconsService.connection.client.Do(req)
+	resp, err := p.IconsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -41744,7 +41744,7 @@ func (p *ImageServiceGetRequest) Send() (*ImageServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageService.connection.client.Do(req)
+	resp, err := p.ImageService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -41936,7 +41936,7 @@ func (p *ImageServiceImportRequest) Send() (*ImageServiceImportResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageService.connection.client.Do(req)
+	resp, err := p.ImageService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -42275,7 +42275,7 @@ func (p *ImageTransferServiceCancelRequest) Send() (*ImageTransferServiceCancelR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransferService.connection.client.Do(req)
+	resp, err := p.ImageTransferService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -42394,7 +42394,7 @@ func (p *ImageTransferServiceExtendRequest) Send() (*ImageTransferServiceExtendR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransferService.connection.client.Do(req)
+	resp, err := p.ImageTransferService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -42517,7 +42517,7 @@ func (p *ImageTransferServiceFinalizeRequest) Send() (*ImageTransferServiceFinal
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransferService.connection.client.Do(req)
+	resp, err := p.ImageTransferService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -42645,7 +42645,7 @@ func (p *ImageTransferServiceGetRequest) Send() (*ImageTransferServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransferService.connection.client.Do(req)
+	resp, err := p.ImageTransferService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -42783,7 +42783,7 @@ func (p *ImageTransferServicePauseRequest) Send() (*ImageTransferServicePauseRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransferService.connection.client.Do(req)
+	resp, err := p.ImageTransferService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -42912,7 +42912,7 @@ func (p *ImageTransferServiceResumeRequest) Send() (*ImageTransferServiceResumeR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransferService.connection.client.Do(req)
+	resp, err := p.ImageTransferService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -43118,7 +43118,7 @@ func (p *ImageTransfersServiceAddRequest) Send() (*ImageTransfersServiceAddRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransfersService.connection.client.Do(req)
+	resp, err := p.ImageTransfersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -43328,7 +43328,7 @@ func (p *ImageTransfersServiceAddForDiskRequest) Send() (*ImageTransfersServiceA
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransfersService.connection.client.Do(req)
+	resp, err := p.ImageTransfersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -43467,7 +43467,7 @@ func (p *ImageTransfersServiceAddForImageRequest) Send() (*ImageTransfersService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransfersService.connection.client.Do(req)
+	resp, err := p.ImageTransfersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -43606,7 +43606,7 @@ func (p *ImageTransfersServiceAddForSnapshotRequest) Send() (*ImageTransfersServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransfersService.connection.client.Do(req)
+	resp, err := p.ImageTransfersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -43742,7 +43742,7 @@ func (p *ImageTransfersServiceListRequest) Send() (*ImageTransfersServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImageTransfersService.connection.client.Do(req)
+	resp, err := p.ImageTransfersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -43936,7 +43936,7 @@ func (p *ImagesServiceListRequest) Send() (*ImagesServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ImagesService.connection.client.Do(req)
+	resp, err := p.ImagesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -44114,7 +44114,7 @@ func (p *InstanceTypeGraphicsConsoleServiceGetRequest) Send() (*InstanceTypeGrap
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.InstanceTypeGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -44253,7 +44253,7 @@ func (p *InstanceTypeGraphicsConsoleServiceRemoveRequest) Send() (*InstanceTypeG
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.InstanceTypeGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -44402,7 +44402,7 @@ func (p *InstanceTypeGraphicsConsolesServiceAddRequest) Send() (*InstanceTypeGra
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeGraphicsConsolesService.connection.client.Do(req)
+	resp, err := p.InstanceTypeGraphicsConsolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -44552,7 +44552,7 @@ func (p *InstanceTypeGraphicsConsolesServiceListRequest) Send() (*InstanceTypeGr
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeGraphicsConsolesService.connection.client.Do(req)
+	resp, err := p.InstanceTypeGraphicsConsolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -44731,7 +44731,7 @@ func (p *InstanceTypeNicServiceGetRequest) Send() (*InstanceTypeNicServiceGetRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeNicService.connection.client.Do(req)
+	resp, err := p.InstanceTypeNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -44870,7 +44870,7 @@ func (p *InstanceTypeNicServiceRemoveRequest) Send() (*InstanceTypeNicServiceRem
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeNicService.connection.client.Do(req)
+	resp, err := p.InstanceTypeNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -45002,7 +45002,7 @@ func (p *InstanceTypeNicServiceUpdateRequest) Send() (*InstanceTypeNicServiceUpd
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeNicService.connection.client.Do(req)
+	resp, err := p.InstanceTypeNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -45171,7 +45171,7 @@ func (p *InstanceTypeNicsServiceAddRequest) Send() (*InstanceTypeNicsServiceAddR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeNicsService.connection.client.Do(req)
+	resp, err := p.InstanceTypeNicsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -45331,7 +45331,7 @@ func (p *InstanceTypeNicsServiceListRequest) Send() (*InstanceTypeNicsServiceLis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeNicsService.connection.client.Do(req)
+	resp, err := p.InstanceTypeNicsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -45513,7 +45513,7 @@ func (p *InstanceTypeServiceGetRequest) Send() (*InstanceTypeServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeService.connection.client.Do(req)
+	resp, err := p.InstanceTypeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -45666,7 +45666,7 @@ func (p *InstanceTypeServiceRemoveRequest) Send() (*InstanceTypeServiceRemoveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeService.connection.client.Do(req)
+	resp, err := p.InstanceTypeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -45833,7 +45833,7 @@ func (p *InstanceTypeServiceUpdateRequest) Send() (*InstanceTypeServiceUpdateRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeService.connection.client.Do(req)
+	resp, err := p.InstanceTypeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -46085,7 +46085,7 @@ func (p *InstanceTypeWatchdogServiceGetRequest) Send() (*InstanceTypeWatchdogSer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeWatchdogService.connection.client.Do(req)
+	resp, err := p.InstanceTypeWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -46224,7 +46224,7 @@ func (p *InstanceTypeWatchdogServiceRemoveRequest) Send() (*InstanceTypeWatchdog
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeWatchdogService.connection.client.Do(req)
+	resp, err := p.InstanceTypeWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -46356,7 +46356,7 @@ func (p *InstanceTypeWatchdogServiceUpdateRequest) Send() (*InstanceTypeWatchdog
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeWatchdogService.connection.client.Do(req)
+	resp, err := p.InstanceTypeWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -46525,7 +46525,7 @@ func (p *InstanceTypeWatchdogsServiceAddRequest) Send() (*InstanceTypeWatchdogsS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeWatchdogsService.connection.client.Do(req)
+	resp, err := p.InstanceTypeWatchdogsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -46685,7 +46685,7 @@ func (p *InstanceTypeWatchdogsServiceListRequest) Send() (*InstanceTypeWatchdogs
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypeWatchdogsService.connection.client.Do(req)
+	resp, err := p.InstanceTypeWatchdogsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -46944,7 +46944,7 @@ func (p *InstanceTypesServiceAddRequest) Send() (*InstanceTypesServiceAddRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypesService.connection.client.Do(req)
+	resp, err := p.InstanceTypesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -47270,7 +47270,7 @@ func (p *InstanceTypesServiceListRequest) Send() (*InstanceTypesServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.InstanceTypesService.connection.client.Do(req)
+	resp, err := p.InstanceTypesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -47447,7 +47447,7 @@ func (p *IscsiBondServiceGetRequest) Send() (*IscsiBondServiceGetResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.IscsiBondService.connection.client.Do(req)
+	resp, err := p.IscsiBondService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -47589,7 +47589,7 @@ func (p *IscsiBondServiceRemoveRequest) Send() (*IscsiBondServiceRemoveResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.IscsiBondService.connection.client.Do(req)
+	resp, err := p.IscsiBondService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -47745,7 +47745,7 @@ func (p *IscsiBondServiceUpdateRequest) Send() (*IscsiBondServiceUpdateResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.IscsiBondService.connection.client.Do(req)
+	resp, err := p.IscsiBondService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -47986,7 +47986,7 @@ func (p *IscsiBondsServiceAddRequest) Send() (*IscsiBondsServiceAddResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.IscsiBondsService.connection.client.Do(req)
+	resp, err := p.IscsiBondsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -48176,7 +48176,7 @@ func (p *IscsiBondsServiceListRequest) Send() (*IscsiBondsServiceListResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.IscsiBondsService.connection.client.Do(req)
+	resp, err := p.IscsiBondsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -48373,7 +48373,7 @@ func (p *JobServiceClearRequest) Send() (*JobServiceClearResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.JobService.connection.client.Do(req)
+	resp, err := p.JobService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -48552,7 +48552,7 @@ func (p *JobServiceEndRequest) Send() (*JobServiceEndResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.JobService.connection.client.Do(req)
+	resp, err := p.JobService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -48721,7 +48721,7 @@ func (p *JobServiceGetRequest) Send() (*JobServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.JobService.connection.client.Do(req)
+	resp, err := p.JobService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -48982,7 +48982,7 @@ func (p *JobsServiceAddRequest) Send() (*JobsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.JobsService.connection.client.Do(req)
+	resp, err := p.JobsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -49240,7 +49240,7 @@ func (p *JobsServiceListRequest) Send() (*JobsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.JobsService.connection.client.Do(req)
+	resp, err := p.JobsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -49472,7 +49472,7 @@ func (p *LinkLayerDiscoveryProtocolServiceListRequest) Send() (*LinkLayerDiscove
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.LinkLayerDiscoveryProtocolService.connection.client.Do(req)
+	resp, err := p.LinkLayerDiscoveryProtocolService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -49637,7 +49637,7 @@ func (p *MacPoolServiceGetRequest) Send() (*MacPoolServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.MacPoolService.connection.client.Do(req)
+	resp, err := p.MacPoolService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -49779,7 +49779,7 @@ func (p *MacPoolServiceRemoveRequest) Send() (*MacPoolServiceRemoveResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.MacPoolService.connection.client.Do(req)
+	resp, err := p.MacPoolService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -49946,7 +49946,7 @@ func (p *MacPoolServiceUpdateRequest) Send() (*MacPoolServiceUpdateResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.MacPoolService.connection.client.Do(req)
+	resp, err := p.MacPoolService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -50200,7 +50200,7 @@ func (p *MacPoolsServiceAddRequest) Send() (*MacPoolsServiceAddResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.MacPoolsService.connection.client.Do(req)
+	resp, err := p.MacPoolsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -50394,7 +50394,7 @@ func (p *MacPoolsServiceListRequest) Send() (*MacPoolsServiceListResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.MacPoolsService.connection.client.Do(req)
+	resp, err := p.MacPoolsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -50618,7 +50618,7 @@ func (p *MoveableServiceMoveRequest) Send() (*MoveableServiceMoveResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.MoveableService.connection.client.Do(req)
+	resp, err := p.MoveableService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -50762,7 +50762,7 @@ func (p *NetworkAttachmentServiceGetRequest) Send() (*NetworkAttachmentServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkAttachmentService.connection.client.Do(req)
+	resp, err := p.NetworkAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -50898,7 +50898,7 @@ func (p *NetworkAttachmentServiceRemoveRequest) Send() (*NetworkAttachmentServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkAttachmentService.connection.client.Do(req)
+	resp, err := p.NetworkAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -51028,7 +51028,7 @@ func (p *NetworkAttachmentServiceUpdateRequest) Send() (*NetworkAttachmentServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkAttachmentService.connection.client.Do(req)
+	resp, err := p.NetworkAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -51198,7 +51198,7 @@ func (p *NetworkAttachmentsServiceAddRequest) Send() (*NetworkAttachmentsService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkAttachmentsService.connection.client.Do(req)
+	resp, err := p.NetworkAttachmentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -51348,7 +51348,7 @@ func (p *NetworkAttachmentsServiceListRequest) Send() (*NetworkAttachmentsServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkAttachmentsService.connection.client.Do(req)
+	resp, err := p.NetworkAttachmentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -51540,7 +51540,7 @@ func (p *NetworkFilterServiceGetRequest) Send() (*NetworkFilterServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkFilterService.connection.client.Do(req)
+	resp, err := p.NetworkFilterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -51758,7 +51758,7 @@ func (p *NetworkFiltersServiceListRequest) Send() (*NetworkFiltersServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkFiltersService.connection.client.Do(req)
+	resp, err := p.NetworkFiltersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -51935,7 +51935,7 @@ func (p *NetworkLabelServiceGetRequest) Send() (*NetworkLabelServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkLabelService.connection.client.Do(req)
+	resp, err := p.NetworkLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -52077,7 +52077,7 @@ func (p *NetworkLabelServiceRemoveRequest) Send() (*NetworkLabelServiceRemoveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkLabelService.connection.client.Do(req)
+	resp, err := p.NetworkLabelService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -52249,7 +52249,7 @@ func (p *NetworkLabelsServiceAddRequest) Send() (*NetworkLabelsServiceAddRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkLabelsService.connection.client.Do(req)
+	resp, err := p.NetworkLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -52423,7 +52423,7 @@ func (p *NetworkLabelsServiceListRequest) Send() (*NetworkLabelsServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkLabelsService.connection.client.Do(req)
+	resp, err := p.NetworkLabelsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -52624,7 +52624,7 @@ func (p *NetworkServiceGetRequest) Send() (*NetworkServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkService.connection.client.Do(req)
+	resp, err := p.NetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -52825,7 +52825,7 @@ func (p *NetworkServiceRemoveRequest) Send() (*NetworkServiceRemoveResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkService.connection.client.Do(req)
+	resp, err := p.NetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -53021,7 +53021,7 @@ func (p *NetworkServiceUpdateRequest) Send() (*NetworkServiceUpdateResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworkService.connection.client.Do(req)
+	resp, err := p.NetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -53329,7 +53329,7 @@ func (p *NetworksServiceAddRequest) Send() (*NetworksServiceAddResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworksService.connection.client.Do(req)
+	resp, err := p.NetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -53605,7 +53605,7 @@ func (p *NetworksServiceListRequest) Send() (*NetworksServiceListResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NetworksService.connection.client.Do(req)
+	resp, err := p.NetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -53837,7 +53837,7 @@ func (p *NicNetworkFilterParameterServiceGetRequest) Send() (*NicNetworkFilterPa
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NicNetworkFilterParameterService.connection.client.Do(req)
+	resp, err := p.NicNetworkFilterParameterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -53972,7 +53972,7 @@ func (p *NicNetworkFilterParameterServiceRemoveRequest) Send() (*NicNetworkFilte
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NicNetworkFilterParameterService.connection.client.Do(req)
+	resp, err := p.NicNetworkFilterParameterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -54120,7 +54120,7 @@ func (p *NicNetworkFilterParameterServiceUpdateRequest) Send() (*NicNetworkFilte
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NicNetworkFilterParameterService.connection.client.Do(req)
+	resp, err := p.NicNetworkFilterParameterService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -54332,7 +54332,7 @@ func (p *NicNetworkFilterParametersServiceAddRequest) Send() (*NicNetworkFilterP
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NicNetworkFilterParametersService.connection.client.Do(req)
+	resp, err := p.NicNetworkFilterParametersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -54500,7 +54500,7 @@ func (p *NicNetworkFilterParametersServiceListRequest) Send() (*NicNetworkFilter
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.NicNetworkFilterParametersService.connection.client.Do(req)
+	resp, err := p.NicNetworkFilterParametersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -54678,7 +54678,7 @@ func (p *OperatingSystemServiceGetRequest) Send() (*OperatingSystemServiceGetRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OperatingSystemService.connection.client.Do(req)
+	resp, err := p.OperatingSystemService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -54854,7 +54854,7 @@ func (p *OperatingSystemsServiceListRequest) Send() (*OperatingSystemsServiceLis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OperatingSystemsService.connection.client.Do(req)
+	resp, err := p.OperatingSystemsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -55031,7 +55031,7 @@ func (p *PermissionServiceGetRequest) Send() (*PermissionServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.PermissionService.connection.client.Do(req)
+	resp, err := p.PermissionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -55167,7 +55167,7 @@ func (p *PermissionServiceRemoveRequest) Send() (*PermissionServiceRemoveRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.PermissionService.connection.client.Do(req)
+	resp, err := p.PermissionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -55325,7 +55325,7 @@ func (p *PermitServiceGetRequest) Send() (*PermitServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.PermitService.connection.client.Do(req)
+	resp, err := p.PermitService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -55494,7 +55494,7 @@ func (p *PermitServiceRemoveRequest) Send() (*PermitServiceRemoveResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.PermitService.connection.client.Do(req)
+	resp, err := p.PermitService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -55663,7 +55663,7 @@ func (p *PermitsServiceAddRequest) Send() (*PermitsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.PermitsService.connection.client.Do(req)
+	resp, err := p.PermitsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -55854,7 +55854,7 @@ func (p *PermitsServiceListRequest) Send() (*PermitsServiceListResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.PermitsService.connection.client.Do(req)
+	resp, err := p.PermitsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -56087,7 +56087,7 @@ func (p *QosServiceGetRequest) Send() (*QosServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QosService.connection.client.Do(req)
+	resp, err := p.QosService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -56262,7 +56262,7 @@ func (p *QosServiceRemoveRequest) Send() (*QosServiceRemoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QosService.connection.client.Do(req)
+	resp, err := p.QosService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -56425,7 +56425,7 @@ func (p *QosServiceUpdateRequest) Send() (*QosServiceUpdateResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QosService.connection.client.Do(req)
+	resp, err := p.QosService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -56656,7 +56656,7 @@ func (p *QossServiceAddRequest) Send() (*QossServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QossService.connection.client.Do(req)
+	resp, err := p.QossService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -56849,7 +56849,7 @@ func (p *QossServiceListRequest) Send() (*QossServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QossService.connection.client.Do(req)
+	resp, err := p.QossService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -57053,7 +57053,7 @@ func (p *QuotaClusterLimitServiceGetRequest) Send() (*QuotaClusterLimitServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaClusterLimitService.connection.client.Do(req)
+	resp, err := p.QuotaClusterLimitService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -57189,7 +57189,7 @@ func (p *QuotaClusterLimitServiceRemoveRequest) Send() (*QuotaClusterLimitServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaClusterLimitService.connection.client.Do(req)
+	resp, err := p.QuotaClusterLimitService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -57337,7 +57337,7 @@ func (p *QuotaClusterLimitsServiceAddRequest) Send() (*QuotaClusterLimitsService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaClusterLimitsService.connection.client.Do(req)
+	resp, err := p.QuotaClusterLimitsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -57487,7 +57487,7 @@ func (p *QuotaClusterLimitsServiceListRequest) Send() (*QuotaClusterLimitsServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaClusterLimitsService.connection.client.Do(req)
+	resp, err := p.QuotaClusterLimitsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -57681,7 +57681,7 @@ func (p *QuotaServiceGetRequest) Send() (*QuotaServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaService.connection.client.Do(req)
+	resp, err := p.QuotaService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -57860,7 +57860,7 @@ func (p *QuotaServiceRemoveRequest) Send() (*QuotaServiceRemoveResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaService.connection.client.Do(req)
+	resp, err := p.QuotaService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -58022,7 +58022,7 @@ func (p *QuotaServiceUpdateRequest) Send() (*QuotaServiceUpdateResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaService.connection.client.Do(req)
+	resp, err := p.QuotaService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -58251,7 +58251,7 @@ func (p *QuotaStorageLimitServiceGetRequest) Send() (*QuotaStorageLimitServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaStorageLimitService.connection.client.Do(req)
+	resp, err := p.QuotaStorageLimitService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -58387,7 +58387,7 @@ func (p *QuotaStorageLimitServiceRemoveRequest) Send() (*QuotaStorageLimitServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaStorageLimitService.connection.client.Do(req)
+	resp, err := p.QuotaStorageLimitService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -58560,7 +58560,7 @@ func (p *QuotaStorageLimitsServiceAddRequest) Send() (*QuotaStorageLimitsService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaStorageLimitsService.connection.client.Do(req)
+	resp, err := p.QuotaStorageLimitsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -58760,7 +58760,7 @@ func (p *QuotaStorageLimitsServiceListRequest) Send() (*QuotaStorageLimitsServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotaStorageLimitsService.connection.client.Do(req)
+	resp, err := p.QuotaStorageLimitsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -58954,7 +58954,7 @@ func (p *QuotasServiceAddRequest) Send() (*QuotasServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotasService.connection.client.Do(req)
+	resp, err := p.QuotasService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -59128,7 +59128,7 @@ func (p *QuotasServiceListRequest) Send() (*QuotasServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.QuotasService.connection.client.Do(req)
+	resp, err := p.QuotasService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -59321,7 +59321,7 @@ func (p *RoleServiceGetRequest) Send() (*RoleServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.RoleService.connection.client.Do(req)
+	resp, err := p.RoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -59495,7 +59495,7 @@ func (p *RoleServiceRemoveRequest) Send() (*RoleServiceRemoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.RoleService.connection.client.Do(req)
+	resp, err := p.RoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -59653,7 +59653,7 @@ func (p *RoleServiceUpdateRequest) Send() (*RoleServiceUpdateResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.RoleService.connection.client.Do(req)
+	resp, err := p.RoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -59887,7 +59887,7 @@ func (p *RolesServiceAddRequest) Send() (*RolesServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.RolesService.connection.client.Do(req)
+	resp, err := p.RolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -60093,7 +60093,7 @@ func (p *RolesServiceListRequest) Send() (*RolesServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.RolesService.connection.client.Do(req)
+	resp, err := p.RolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -60312,7 +60312,7 @@ func (p *SchedulingPoliciesServiceAddRequest) Send() (*SchedulingPoliciesService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SchedulingPoliciesService.connection.client.Do(req)
+	resp, err := p.SchedulingPoliciesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -60472,7 +60472,7 @@ func (p *SchedulingPoliciesServiceListRequest) Send() (*SchedulingPoliciesServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SchedulingPoliciesService.connection.client.Do(req)
+	resp, err := p.SchedulingPoliciesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -60659,7 +60659,7 @@ func (p *SchedulingPolicyServiceGetRequest) Send() (*SchedulingPolicyServiceGetR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SchedulingPolicyService.connection.client.Do(req)
+	resp, err := p.SchedulingPolicyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -60795,7 +60795,7 @@ func (p *SchedulingPolicyServiceRemoveRequest) Send() (*SchedulingPolicyServiceR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SchedulingPolicyService.connection.client.Do(req)
+	resp, err := p.SchedulingPolicyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -60925,7 +60925,7 @@ func (p *SchedulingPolicyServiceUpdateRequest) Send() (*SchedulingPolicyServiceU
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SchedulingPolicyService.connection.client.Do(req)
+	resp, err := p.SchedulingPolicyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -61136,7 +61136,7 @@ func (p *SchedulingPolicyUnitServiceGetRequest) Send() (*SchedulingPolicyUnitSer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SchedulingPolicyUnitService.connection.client.Do(req)
+	resp, err := p.SchedulingPolicyUnitService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -61272,7 +61272,7 @@ func (p *SchedulingPolicyUnitServiceRemoveRequest) Send() (*SchedulingPolicyUnit
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SchedulingPolicyUnitService.connection.client.Do(req)
+	resp, err := p.SchedulingPolicyUnitService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -61438,7 +61438,7 @@ func (p *SchedulingPolicyUnitsServiceListRequest) Send() (*SchedulingPolicyUnits
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SchedulingPolicyUnitsService.connection.client.Do(req)
+	resp, err := p.SchedulingPolicyUnitsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -61615,7 +61615,7 @@ func (p *SnapshotCdromServiceGetRequest) Send() (*SnapshotCdromServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotCdromService.connection.client.Do(req)
+	resp, err := p.SnapshotCdromService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -61791,7 +61791,7 @@ func (p *SnapshotCdromsServiceListRequest) Send() (*SnapshotCdromsServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotCdromsService.connection.client.Do(req)
+	resp, err := p.SnapshotCdromsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -61968,7 +61968,7 @@ func (p *SnapshotDiskServiceGetRequest) Send() (*SnapshotDiskServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotDiskService.connection.client.Do(req)
+	resp, err := p.SnapshotDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -62144,7 +62144,7 @@ func (p *SnapshotDisksServiceListRequest) Send() (*SnapshotDisksServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotDisksService.connection.client.Do(req)
+	resp, err := p.SnapshotDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -62321,7 +62321,7 @@ func (p *SnapshotNicServiceGetRequest) Send() (*SnapshotNicServiceGetResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotNicService.connection.client.Do(req)
+	resp, err := p.SnapshotNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -62497,7 +62497,7 @@ func (p *SnapshotNicsServiceListRequest) Send() (*SnapshotNicsServiceListRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotNicsService.connection.client.Do(req)
+	resp, err := p.SnapshotNicsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -62674,7 +62674,7 @@ func (p *SnapshotServiceGetRequest) Send() (*SnapshotServiceGetResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotService.connection.client.Do(req)
+	resp, err := p.SnapshotService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -62820,7 +62820,7 @@ func (p *SnapshotServiceRemoveRequest) Send() (*SnapshotServiceRemoveResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotService.connection.client.Do(req)
+	resp, err := p.SnapshotService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -62981,7 +62981,7 @@ func (p *SnapshotServiceRestoreRequest) Send() (*SnapshotServiceRestoreResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotService.connection.client.Do(req)
+	resp, err := p.SnapshotService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -63241,7 +63241,7 @@ func (p *SnapshotsServiceAddRequest) Send() (*SnapshotsServiceAddResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotsService.connection.client.Do(req)
+	resp, err := p.SnapshotsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -63499,7 +63499,7 @@ func (p *SnapshotsServiceListRequest) Send() (*SnapshotsServiceListResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SnapshotsService.connection.client.Do(req)
+	resp, err := p.SnapshotsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -63676,7 +63676,7 @@ func (p *StatisticServiceGetRequest) Send() (*StatisticServiceGetResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StatisticService.connection.client.Do(req)
+	resp, err := p.StatisticService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -63899,7 +63899,7 @@ func (p *StatisticsServiceListRequest) Send() (*StatisticsServiceListResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StatisticsService.connection.client.Do(req)
+	resp, err := p.StatisticsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -64214,7 +64214,7 @@ func (p *StepServiceEndRequest) Send() (*StepServiceEndResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StepService.connection.client.Do(req)
+	resp, err := p.StepService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -64383,7 +64383,7 @@ func (p *StepServiceGetRequest) Send() (*StepServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StepService.connection.client.Do(req)
+	resp, err := p.StepService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -64640,7 +64640,7 @@ func (p *StepsServiceAddRequest) Send() (*StepsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StepsService.connection.client.Do(req)
+	resp, err := p.StepsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -64880,7 +64880,7 @@ func (p *StepsServiceListRequest) Send() (*StepsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StepsService.connection.client.Do(req)
+	resp, err := p.StepsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -65116,7 +65116,7 @@ func (p *StorageDomainContentDiskServiceGetRequest) Send() (*StorageDomainConten
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainContentDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainContentDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -65313,7 +65313,7 @@ func (p *StorageDomainContentDisksServiceListRequest) Send() (*StorageDomainCont
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainContentDisksService.connection.client.Do(req)
+	resp, err := p.StorageDomainContentDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -65514,7 +65514,7 @@ func (p *StorageDomainDiskServiceCopyRequest) Send() (*StorageDomainDiskServiceC
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -65649,7 +65649,7 @@ func (p *StorageDomainDiskServiceExportRequest) Send() (*StorageDomainDiskServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -65775,7 +65775,7 @@ func (p *StorageDomainDiskServiceGetRequest) Send() (*StorageDomainDiskServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -65941,7 +65941,7 @@ func (p *StorageDomainDiskServiceMoveRequest) Send() (*StorageDomainDiskServiceM
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -66078,7 +66078,7 @@ func (p *StorageDomainDiskServiceReduceRequest) Send() (*StorageDomainDiskServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -66197,7 +66197,7 @@ func (p *StorageDomainDiskServiceRemoveRequest) Send() (*StorageDomainDiskServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -66324,7 +66324,7 @@ func (p *StorageDomainDiskServiceSparsifyRequest) Send() (*StorageDomainDiskServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -66456,7 +66456,7 @@ func (p *StorageDomainDiskServiceUpdateRequest) Send() (*StorageDomainDiskServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDiskService.connection.client.Do(req)
+	resp, err := p.StorageDomainDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -66672,7 +66672,7 @@ func (p *StorageDomainDisksServiceAddRequest) Send() (*StorageDomainDisksService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDisksService.connection.client.Do(req)
+	resp, err := p.StorageDomainDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -66842,7 +66842,7 @@ func (p *StorageDomainDisksServiceListRequest) Send() (*StorageDomainDisksServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainDisksService.connection.client.Do(req)
+	resp, err := p.StorageDomainDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -67020,7 +67020,7 @@ func (p *StorageDomainServerConnectionServiceGetRequest) Send() (*StorageDomainS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageDomainServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -67157,7 +67157,7 @@ func (p *StorageDomainServerConnectionServiceRemoveRequest) Send() (*StorageDoma
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageDomainServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -67306,7 +67306,7 @@ func (p *StorageDomainServerConnectionsServiceAddRequest) Send() (*StorageDomain
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageDomainServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -67454,7 +67454,7 @@ func (p *StorageDomainServerConnectionsServiceListRequest) Send() (*StorageDomai
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageDomainServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -67642,7 +67642,7 @@ func (p *StorageDomainServiceGetRequest) Send() (*StorageDomainServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainService.connection.client.Do(req)
+	resp, err := p.StorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -67798,7 +67798,7 @@ func (p *StorageDomainServiceIsAttachedRequest) Send() (*StorageDomainServiceIsA
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainService.connection.client.Do(req)
+	resp, err := p.StorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -67972,7 +67972,7 @@ func (p *StorageDomainServiceReduceLunsRequest) Send() (*StorageDomainServiceRed
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainService.connection.client.Do(req)
+	resp, err := p.StorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -68172,7 +68172,7 @@ func (p *StorageDomainServiceRefreshLunsRequest) Send() (*StorageDomainServiceRe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainService.connection.client.Do(req)
+	resp, err := p.StorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -68367,7 +68367,7 @@ func (p *StorageDomainServiceRemoveRequest) Send() (*StorageDomainServiceRemoveR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainService.connection.client.Do(req)
+	resp, err := p.StorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -68531,7 +68531,7 @@ func (p *StorageDomainServiceUpdateRequest) Send() (*StorageDomainServiceUpdateR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainService.connection.client.Do(req)
+	resp, err := p.StorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -68726,7 +68726,7 @@ func (p *StorageDomainServiceUpdateOvfStoreRequest) Send() (*StorageDomainServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainService.connection.client.Do(req)
+	resp, err := p.StorageDomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -69007,7 +69007,7 @@ func (p *StorageDomainTemplateServiceGetRequest) Send() (*StorageDomainTemplateS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainTemplateService.connection.client.Do(req)
+	resp, err := p.StorageDomainTemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -69218,7 +69218,7 @@ func (p *StorageDomainTemplateServiceImportRequest) Send() (*StorageDomainTempla
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainTemplateService.connection.client.Do(req)
+	resp, err := p.StorageDomainTemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -69450,7 +69450,7 @@ func (p *StorageDomainTemplateServiceRegisterRequest) Send() (*StorageDomainTemp
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainTemplateService.connection.client.Do(req)
+	resp, err := p.StorageDomainTemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -69571,7 +69571,7 @@ func (p *StorageDomainTemplateServiceRemoveRequest) Send() (*StorageDomainTempla
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainTemplateService.connection.client.Do(req)
+	resp, err := p.StorageDomainTemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -69749,7 +69749,7 @@ func (p *StorageDomainTemplatesServiceListRequest) Send() (*StorageDomainTemplat
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainTemplatesService.connection.client.Do(req)
+	resp, err := p.StorageDomainTemplatesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -69928,7 +69928,7 @@ func (p *StorageDomainVmDiskAttachmentServiceGetRequest) Send() (*StorageDomainV
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainVmDiskAttachmentService.connection.client.Do(req)
+	resp, err := p.StorageDomainVmDiskAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -70096,7 +70096,7 @@ func (p *StorageDomainVmDiskAttachmentsServiceListRequest) Send() (*StorageDomai
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainVmDiskAttachmentsService.connection.client.Do(req)
+	resp, err := p.StorageDomainVmDiskAttachmentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -70274,7 +70274,7 @@ func (p *StorageDomainVmServiceGetRequest) Send() (*StorageDomainVmServiceGetRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainVmService.connection.client.Do(req)
+	resp, err := p.StorageDomainVmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -70520,7 +70520,7 @@ func (p *StorageDomainVmServiceImportRequest) Send() (*StorageDomainVmServiceImp
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainVmService.connection.client.Do(req)
+	resp, err := p.StorageDomainVmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -70816,7 +70816,7 @@ func (p *StorageDomainVmServiceRegisterRequest) Send() (*StorageDomainVmServiceR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainVmService.connection.client.Do(req)
+	resp, err := p.StorageDomainVmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -70939,7 +70939,7 @@ func (p *StorageDomainVmServiceRemoveRequest) Send() (*StorageDomainVmServiceRem
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainVmService.connection.client.Do(req)
+	resp, err := p.StorageDomainVmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -71166,7 +71166,7 @@ func (p *StorageDomainVmsServiceListRequest) Send() (*StorageDomainVmsServiceLis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainVmsService.connection.client.Do(req)
+	resp, err := p.StorageDomainVmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -71409,7 +71409,7 @@ func (p *StorageDomainsServiceAddRequest) Send() (*StorageDomainsServiceAddRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainsService.connection.client.Do(req)
+	resp, err := p.StorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -71676,7 +71676,7 @@ func (p *StorageDomainsServiceAddBlockDomainRequest) Send() (*StorageDomainsServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainsService.connection.client.Do(req)
+	resp, err := p.StorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -71818,7 +71818,7 @@ func (p *StorageDomainsServiceAddByPathRequest) Send() (*StorageDomainsServiceAd
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainsService.connection.client.Do(req)
+	resp, err := p.StorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -71960,7 +71960,7 @@ func (p *StorageDomainsServiceAddDirectLunRequest) Send() (*StorageDomainsServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainsService.connection.client.Do(req)
+	resp, err := p.StorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -72102,7 +72102,7 @@ func (p *StorageDomainsServiceAddGlusterOrPostfsRequest) Send() (*StorageDomains
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainsService.connection.client.Do(req)
+	resp, err := p.StorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -72280,7 +72280,7 @@ func (p *StorageDomainsServiceListRequest) Send() (*StorageDomainsServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainsService.connection.client.Do(req)
+	resp, err := p.StorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -72429,7 +72429,7 @@ func (p *StorageDomainsServiceAddLocalRequest) Send() (*StorageDomainsServiceAdd
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageDomainsService.connection.client.Do(req)
+	resp, err := p.StorageDomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -72601,7 +72601,7 @@ func (p *StorageServerConnectionExtensionServiceGetRequest) Send() (*StorageServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionExtensionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionExtensionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -72737,7 +72737,7 @@ func (p *StorageServerConnectionExtensionServiceRemoveRequest) Send() (*StorageS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionExtensionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionExtensionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -72881,7 +72881,7 @@ func (p *StorageServerConnectionExtensionServiceUpdateRequest) Send() (*StorageS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionExtensionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionExtensionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -73094,7 +73094,7 @@ func (p *StorageServerConnectionExtensionsServiceAddRequest) Send() (*StorageSer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionExtensionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionExtensionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -73276,7 +73276,7 @@ func (p *StorageServerConnectionExtensionsServiceListRequest) Send() (*StorageSe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionExtensionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionExtensionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -73453,7 +73453,7 @@ func (p *StorageServerConnectionServiceGetRequest) Send() (*StorageServerConnect
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -73614,7 +73614,7 @@ func (p *StorageServerConnectionServiceUpdateGlusterfsRequest) Send() (*StorageS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -73774,7 +73774,7 @@ func (p *StorageServerConnectionServiceUpdateIscsiRequest) Send() (*StorageServe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -73934,7 +73934,7 @@ func (p *StorageServerConnectionServiceUpdateLocalRequest) Send() (*StorageServe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -74094,7 +74094,7 @@ func (p *StorageServerConnectionServiceUpdateNfsRequest) Send() (*StorageServerC
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -74242,7 +74242,7 @@ func (p *StorageServerConnectionServiceRemoveRequest) Send() (*StorageServerConn
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -74413,7 +74413,7 @@ func (p *StorageServerConnectionServiceUpdateRequest) Send() (*StorageServerConn
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -74626,7 +74626,7 @@ func (p *StorageServerConnectionServiceUpdateVfsRequest) Send() (*StorageServerC
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -74810,7 +74810,7 @@ func (p *StorageServerConnectionsServiceAddRequest) Send() (*StorageServerConnec
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -74991,7 +74991,7 @@ func (p *StorageServerConnectionsServiceAddGlusterfsRequest) Send() (*StorageSer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -75133,7 +75133,7 @@ func (p *StorageServerConnectionsServiceAddIscsiRequest) Send() (*StorageServerC
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -75280,7 +75280,7 @@ func (p *StorageServerConnectionsServiceListRequest) Send() (*StorageServerConne
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -75427,7 +75427,7 @@ func (p *StorageServerConnectionsServiceAddLocalRequest) Send() (*StorageServerC
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -75569,7 +75569,7 @@ func (p *StorageServerConnectionsServiceAddNfsRequest) Send() (*StorageServerCon
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -75711,7 +75711,7 @@ func (p *StorageServerConnectionsServiceAddVfsRequest) Send() (*StorageServerCon
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageServerConnectionsService.connection.client.Do(req)
+	resp, err := p.StorageServerConnectionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -75893,7 +75893,7 @@ func (p *StorageServiceGetRequest) Send() (*StorageServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.StorageService.connection.client.Do(req)
+	resp, err := p.StorageService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -76098,7 +76098,7 @@ func (p *SystemOptionServiceGetRequest) Send() (*SystemOptionServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemOptionService.connection.client.Do(req)
+	resp, err := p.SystemOptionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -76433,7 +76433,7 @@ func (p *SystemPermissionsServiceAddRequest) Send() (*SystemPermissionsServiceAd
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -76668,7 +76668,7 @@ func (p *SystemPermissionsServiceAddClusterPermissionRequest) Send() (*SystemPer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -76810,7 +76810,7 @@ func (p *SystemPermissionsServiceAddDataCenterPermissionRequest) Send() (*System
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -76952,7 +76952,7 @@ func (p *SystemPermissionsServiceAddGroupLevelRequest) Send() (*SystemPermission
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -77094,7 +77094,7 @@ func (p *SystemPermissionsServiceAddHostPermissionRequest) Send() (*SystemPermis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -77250,7 +77250,7 @@ func (p *SystemPermissionsServiceListRequest) Send() (*SystemPermissionsServiceL
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -77435,7 +77435,7 @@ func (p *SystemPermissionsServiceAddStorageDomainPermissionRequest) Send() (*Sys
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -77577,7 +77577,7 @@ func (p *SystemPermissionsServiceAddTemplatePermissionRequest) Send() (*SystemPe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -77719,7 +77719,7 @@ func (p *SystemPermissionsServiceAddUserLevelRequest) Send() (*SystemPermissions
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -77861,7 +77861,7 @@ func (p *SystemPermissionsServiceAddVmPermissionRequest) Send() (*SystemPermissi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -78003,7 +78003,7 @@ func (p *SystemPermissionsServiceAddVmPoolPermissionRequest) Send() (*SystemPerm
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemPermissionsService.connection.client.Do(req)
+	resp, err := p.SystemPermissionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -78251,7 +78251,7 @@ func (p *SystemServiceGetRequest) Send() (*SystemServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemService.connection.client.Do(req)
+	resp, err := p.SystemService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -78543,7 +78543,7 @@ func (p *SystemServiceReloadConfigurationsRequest) Send() (*SystemServiceReloadC
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SystemService.connection.client.Do(req)
+	resp, err := p.SystemService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -79190,7 +79190,7 @@ func (p *TagServiceGetRequest) Send() (*TagServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TagService.connection.client.Do(req)
+	resp, err := p.TagService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -79355,7 +79355,7 @@ func (p *TagServiceRemoveRequest) Send() (*TagServiceRemoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TagService.connection.client.Do(req)
+	resp, err := p.TagService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -79516,7 +79516,7 @@ func (p *TagServiceUpdateRequest) Send() (*TagServiceUpdateResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TagService.connection.client.Do(req)
+	resp, err := p.TagService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -79751,7 +79751,7 @@ func (p *TagsServiceAddRequest) Send() (*TagsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TagsService.connection.client.Do(req)
+	resp, err := p.TagsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -79976,7 +79976,7 @@ func (p *TagsServiceListRequest) Send() (*TagsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TagsService.connection.client.Do(req)
+	resp, err := p.TagsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -80219,7 +80219,7 @@ func (p *TemplateCdromServiceGetRequest) Send() (*TemplateCdromServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateCdromService.connection.client.Do(req)
+	resp, err := p.TemplateCdromService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -80407,7 +80407,7 @@ func (p *TemplateCdromsServiceListRequest) Send() (*TemplateCdromsServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateCdromsService.connection.client.Do(req)
+	resp, err := p.TemplateCdromsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -80587,7 +80587,7 @@ func (p *TemplateDiskAttachmentServiceGetRequest) Send() (*TemplateDiskAttachmen
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateDiskAttachmentService.connection.client.Do(req)
+	resp, err := p.TemplateDiskAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -80743,7 +80743,7 @@ func (p *TemplateDiskAttachmentServiceRemoveRequest) Send() (*TemplateDiskAttach
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateDiskAttachmentService.connection.client.Do(req)
+	resp, err := p.TemplateDiskAttachmentService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -80906,7 +80906,7 @@ func (p *TemplateDiskAttachmentsServiceListRequest) Send() (*TemplateDiskAttachm
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateDiskAttachmentsService.connection.client.Do(req)
+	resp, err := p.TemplateDiskAttachmentsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -81109,7 +81109,7 @@ func (p *TemplateDiskServiceCopyRequest) Send() (*TemplateDiskServiceCopyRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateDiskService.connection.client.Do(req)
+	resp, err := p.TemplateDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -81252,7 +81252,7 @@ func (p *TemplateDiskServiceExportRequest) Send() (*TemplateDiskServiceExportRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateDiskService.connection.client.Do(req)
+	resp, err := p.TemplateDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -81369,7 +81369,7 @@ func (p *TemplateDiskServiceGetRequest) Send() (*TemplateDiskServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateDiskService.connection.client.Do(req)
+	resp, err := p.TemplateDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -81505,7 +81505,7 @@ func (p *TemplateDiskServiceRemoveRequest) Send() (*TemplateDiskServiceRemoveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateDiskService.connection.client.Do(req)
+	resp, err := p.TemplateDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -81660,7 +81660,7 @@ func (p *TemplateDisksServiceListRequest) Send() (*TemplateDisksServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateDisksService.connection.client.Do(req)
+	resp, err := p.TemplateDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -81838,7 +81838,7 @@ func (p *TemplateGraphicsConsoleServiceGetRequest) Send() (*TemplateGraphicsCons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.TemplateGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -81977,7 +81977,7 @@ func (p *TemplateGraphicsConsoleServiceRemoveRequest) Send() (*TemplateGraphicsC
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.TemplateGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -82126,7 +82126,7 @@ func (p *TemplateGraphicsConsolesServiceAddRequest) Send() (*TemplateGraphicsCon
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateGraphicsConsolesService.connection.client.Do(req)
+	resp, err := p.TemplateGraphicsConsolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -82276,7 +82276,7 @@ func (p *TemplateGraphicsConsolesServiceListRequest) Send() (*TemplateGraphicsCo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateGraphicsConsolesService.connection.client.Do(req)
+	resp, err := p.TemplateGraphicsConsolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -82454,7 +82454,7 @@ func (p *TemplateNicServiceGetRequest) Send() (*TemplateNicServiceGetResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateNicService.connection.client.Do(req)
+	resp, err := p.TemplateNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -82590,7 +82590,7 @@ func (p *TemplateNicServiceRemoveRequest) Send() (*TemplateNicServiceRemoveRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateNicService.connection.client.Do(req)
+	resp, err := p.TemplateNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -82720,7 +82720,7 @@ func (p *TemplateNicServiceUpdateRequest) Send() (*TemplateNicServiceUpdateRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateNicService.connection.client.Do(req)
+	resp, err := p.TemplateNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -82889,7 +82889,7 @@ func (p *TemplateNicsServiceAddRequest) Send() (*TemplateNicsServiceAddResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateNicsService.connection.client.Do(req)
+	resp, err := p.TemplateNicsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -83039,7 +83039,7 @@ func (p *TemplateNicsServiceListRequest) Send() (*TemplateNicsServiceListRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateNicsService.connection.client.Do(req)
+	resp, err := p.TemplateNicsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -83246,7 +83246,7 @@ func (p *TemplateServiceExportRequest) Send() (*TemplateServiceExportResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateService.connection.client.Do(req)
+	resp, err := p.TemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -83402,7 +83402,7 @@ func (p *TemplateServiceGetRequest) Send() (*TemplateServiceGetResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateService.connection.client.Do(req)
+	resp, err := p.TemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -83545,7 +83545,7 @@ func (p *TemplateServiceRemoveRequest) Send() (*TemplateServiceRemoveResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateService.connection.client.Do(req)
+	resp, err := p.TemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -83687,7 +83687,7 @@ func (p *TemplateServiceExportToExportDomainRequest) Send() (*TemplateServiceExp
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateService.connection.client.Do(req)
+	resp, err := p.TemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -83847,7 +83847,7 @@ func (p *TemplateServiceExportToPathOnHostRequest) Send() (*TemplateServiceExpor
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateService.connection.client.Do(req)
+	resp, err := p.TemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -84004,7 +84004,7 @@ func (p *TemplateServiceUpdateRequest) Send() (*TemplateServiceUpdateResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateService.connection.client.Do(req)
+	resp, err := p.TemplateService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -84309,7 +84309,7 @@ func (p *TemplateWatchdogServiceGetRequest) Send() (*TemplateWatchdogServiceGetR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateWatchdogService.connection.client.Do(req)
+	resp, err := p.TemplateWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -84445,7 +84445,7 @@ func (p *TemplateWatchdogServiceRemoveRequest) Send() (*TemplateWatchdogServiceR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateWatchdogService.connection.client.Do(req)
+	resp, err := p.TemplateWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -84575,7 +84575,7 @@ func (p *TemplateWatchdogServiceUpdateRequest) Send() (*TemplateWatchdogServiceU
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateWatchdogService.connection.client.Do(req)
+	resp, err := p.TemplateWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -84742,7 +84742,7 @@ func (p *VmBackupServiceFinalizeRequest) Send() (*VmBackupServiceFinalizeRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmBackupService.connection.client.Do(req)
+	resp, err := p.VmBackupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -84864,7 +84864,7 @@ func (p *VmBackupServiceGetRequest) Send() (*VmBackupServiceGetResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmBackupService.connection.client.Do(req)
+	resp, err := p.VmBackupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -85046,7 +85046,7 @@ func (p *TemplateWatchdogsServiceAddRequest) Send() (*TemplateWatchdogsServiceAd
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateWatchdogsService.connection.client.Do(req)
+	resp, err := p.TemplateWatchdogsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -85196,7 +85196,7 @@ func (p *TemplateWatchdogsServiceListRequest) Send() (*TemplateWatchdogsServiceL
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplateWatchdogsService.connection.client.Do(req)
+	resp, err := p.TemplateWatchdogsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -85506,7 +85506,7 @@ func (p *TemplatesServiceAddRequest) Send() (*TemplatesServiceAddResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplatesService.connection.client.Do(req)
+	resp, err := p.TemplatesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -85885,7 +85885,7 @@ func (p *TemplatesServiceAddFromConfigurationRequest) Send() (*TemplatesServiceA
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplatesService.connection.client.Do(req)
+	resp, err := p.TemplatesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -86045,7 +86045,7 @@ func (p *TemplatesServiceAddFromVmRequest) Send() (*TemplatesServiceAddFromVmRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplatesService.connection.client.Do(req)
+	resp, err := p.TemplatesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -86205,7 +86205,7 @@ func (p *TemplatesServiceAddFromVmSnapshotRequest) Send() (*TemplatesServiceAddF
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplatesService.connection.client.Do(req)
+	resp, err := p.TemplatesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -86388,7 +86388,7 @@ func (p *TemplatesServiceListRequest) Send() (*TemplatesServiceListResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.TemplatesService.connection.client.Do(req)
+	resp, err := p.TemplatesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -86578,7 +86578,7 @@ func (p *UnmanagedNetworkServiceGetRequest) Send() (*UnmanagedNetworkServiceGetR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UnmanagedNetworkService.connection.client.Do(req)
+	resp, err := p.UnmanagedNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -86714,7 +86714,7 @@ func (p *UnmanagedNetworkServiceRemoveRequest) Send() (*UnmanagedNetworkServiceR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UnmanagedNetworkService.connection.client.Do(req)
+	resp, err := p.UnmanagedNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -86869,7 +86869,7 @@ func (p *UnmanagedNetworksServiceListRequest) Send() (*UnmanagedNetworksServiceL
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UnmanagedNetworksService.connection.client.Do(req)
+	resp, err := p.UnmanagedNetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -87046,7 +87046,7 @@ func (p *VirtualFunctionAllowedNetworkServiceGetRequest) Send() (*VirtualFunctio
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VirtualFunctionAllowedNetworkService.connection.client.Do(req)
+	resp, err := p.VirtualFunctionAllowedNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -87182,7 +87182,7 @@ func (p *VirtualFunctionAllowedNetworkServiceRemoveRequest) Send() (*VirtualFunc
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VirtualFunctionAllowedNetworkService.connection.client.Do(req)
+	resp, err := p.VirtualFunctionAllowedNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -87328,7 +87328,7 @@ func (p *VirtualFunctionAllowedNetworksServiceAddRequest) Send() (*VirtualFuncti
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VirtualFunctionAllowedNetworksService.connection.client.Do(req)
+	resp, err := p.VirtualFunctionAllowedNetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -87476,7 +87476,7 @@ func (p *VirtualFunctionAllowedNetworksServiceListRequest) Send() (*VirtualFunct
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VirtualFunctionAllowedNetworksService.connection.client.Do(req)
+	resp, err := p.VirtualFunctionAllowedNetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -87665,7 +87665,7 @@ func (p *VmApplicationServiceGetRequest) Send() (*VmApplicationServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmApplicationService.connection.client.Do(req)
+	resp, err := p.VmApplicationService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -87853,7 +87853,7 @@ func (p *VmApplicationsServiceListRequest) Send() (*VmApplicationsServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmApplicationsService.connection.client.Do(req)
+	resp, err := p.VmApplicationsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -88032,7 +88032,7 @@ func (p *VmBackupDiskServiceGetRequest) Send() (*VmBackupDiskServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmBackupDiskService.connection.client.Do(req)
+	resp, err := p.VmBackupDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -88208,7 +88208,7 @@ func (p *VmBackupDisksServiceListRequest) Send() (*VmBackupDisksServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmBackupDisksService.connection.client.Do(req)
+	resp, err := p.VmBackupDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -88431,7 +88431,7 @@ func (p *VmBackupsServiceAddRequest) Send() (*VmBackupsServiceAddResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmBackupsService.connection.client.Do(req)
+	resp, err := p.VmBackupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -88644,7 +88644,7 @@ func (p *VmBackupsServiceListRequest) Send() (*VmBackupsServiceListResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmBackupsService.connection.client.Do(req)
+	resp, err := p.VmBackupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -88851,7 +88851,7 @@ func (p *VmCdromServiceGetRequest) Send() (*VmCdromServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCdromService.connection.client.Do(req)
+	resp, err := p.VmCdromService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -89076,7 +89076,7 @@ func (p *VmCdromServiceUpdateRequest) Send() (*VmCdromServiceUpdateResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCdromService.connection.client.Do(req)
+	resp, err := p.VmCdromService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -89328,7 +89328,7 @@ func (p *VmCdromsServiceAddRequest) Send() (*VmCdromsServiceAddResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCdromsService.connection.client.Do(req)
+	resp, err := p.VmCdromsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -89478,7 +89478,7 @@ func (p *VmCdromsServiceListRequest) Send() (*VmCdromsServiceListResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCdromsService.connection.client.Do(req)
+	resp, err := p.VmCdromsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -89657,7 +89657,7 @@ func (p *VmCheckpointDiskServiceGetRequest) Send() (*VmCheckpointDiskServiceGetR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCheckpointDiskService.connection.client.Do(req)
+	resp, err := p.VmCheckpointDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -89833,7 +89833,7 @@ func (p *VmCheckpointDisksServiceListRequest) Send() (*VmCheckpointDisksServiceL
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCheckpointDisksService.connection.client.Do(req)
+	resp, err := p.VmCheckpointDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -90011,7 +90011,7 @@ func (p *VmCheckpointServiceGetRequest) Send() (*VmCheckpointServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCheckpointService.connection.client.Do(req)
+	resp, err := p.VmCheckpointService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -90151,7 +90151,7 @@ func (p *VmCheckpointServiceRemoveRequest) Send() (*VmCheckpointServiceRemoveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCheckpointService.connection.client.Do(req)
+	resp, err := p.VmCheckpointService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -90323,7 +90323,7 @@ func (p *VmCheckpointsServiceListRequest) Send() (*VmCheckpointsServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmCheckpointsService.connection.client.Do(req)
+	resp, err := p.VmCheckpointsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -90507,7 +90507,7 @@ func (p *VmDiskServiceActivateRequest) Send() (*VmDiskServiceActivateResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDiskService.connection.client.Do(req)
+	resp, err := p.VmDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -90632,7 +90632,7 @@ func (p *VmDiskServiceDeactivateRequest) Send() (*VmDiskServiceDeactivateRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDiskService.connection.client.Do(req)
+	resp, err := p.VmDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -90766,7 +90766,7 @@ func (p *VmDiskServiceExportRequest) Send() (*VmDiskServiceExportResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDiskService.connection.client.Do(req)
+	resp, err := p.VmDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -90883,7 +90883,7 @@ func (p *VmDiskServiceGetRequest) Send() (*VmDiskServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDiskService.connection.client.Do(req)
+	resp, err := p.VmDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -91036,7 +91036,7 @@ func (p *VmDiskServiceMoveRequest) Send() (*VmDiskServiceMoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDiskService.connection.client.Do(req)
+	resp, err := p.VmDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -91165,7 +91165,7 @@ func (p *VmDiskServiceReduceRequest) Send() (*VmDiskServiceReduceResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDiskService.connection.client.Do(req)
+	resp, err := p.VmDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -91294,7 +91294,7 @@ func (p *VmDiskServiceRemoveRequest) Send() (*VmDiskServiceRemoveResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDiskService.connection.client.Do(req)
+	resp, err := p.VmDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -91431,7 +91431,7 @@ func (p *VmDiskServiceUpdateRequest) Send() (*VmDiskServiceUpdateResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDiskService.connection.client.Do(req)
+	resp, err := p.VmDiskService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -91621,7 +91621,7 @@ func (p *VmDisksServiceAddRequest) Send() (*VmDisksServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDisksService.connection.client.Do(req)
+	resp, err := p.VmDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -91769,7 +91769,7 @@ func (p *VmDisksServiceListRequest) Send() (*VmDisksServiceListResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmDisksService.connection.client.Do(req)
+	resp, err := p.VmDisksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -91963,7 +91963,7 @@ func (p *VmGraphicsConsoleServiceGetRequest) Send() (*VmGraphicsConsoleServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.VmGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -92121,7 +92121,7 @@ func (p *VmGraphicsConsoleServiceProxyTicketRequest) Send() (*VmGraphicsConsoleS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.VmGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -92318,7 +92318,7 @@ func (p *VmGraphicsConsoleServiceRemoteViewerConnectionFileRequest) Send() (*VmG
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.VmGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -92583,7 +92583,7 @@ func (p *VmGraphicsConsoleServiceRemoveRequest) Send() (*VmGraphicsConsoleServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.VmGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -92723,7 +92723,7 @@ func (p *VmGraphicsConsoleServiceTicketRequest) Send() (*VmGraphicsConsoleServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmGraphicsConsoleService.connection.client.Do(req)
+	resp, err := p.VmGraphicsConsoleService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -92919,7 +92919,7 @@ func (p *VmGraphicsConsolesServiceAddRequest) Send() (*VmGraphicsConsolesService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmGraphicsConsolesService.connection.client.Do(req)
+	resp, err := p.VmGraphicsConsolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -93085,7 +93085,7 @@ func (p *VmGraphicsConsolesServiceListRequest) Send() (*VmGraphicsConsolesServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmGraphicsConsolesService.connection.client.Do(req)
+	resp, err := p.VmGraphicsConsolesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -93302,7 +93302,7 @@ func (p *VmHostDeviceServiceGetRequest) Send() (*VmHostDeviceServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmHostDeviceService.connection.client.Do(req)
+	resp, err := p.VmHostDeviceService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -93499,7 +93499,7 @@ func (p *VmHostDeviceServiceRemoveRequest) Send() (*VmHostDeviceServiceRemoveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmHostDeviceService.connection.client.Do(req)
+	resp, err := p.VmHostDeviceService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -93682,7 +93682,7 @@ func (p *VmHostDevicesServiceAddRequest) Send() (*VmHostDevicesServiceAddRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmHostDevicesService.connection.client.Do(req)
+	resp, err := p.VmHostDevicesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -93866,7 +93866,7 @@ func (p *VmHostDevicesServiceListRequest) Send() (*VmHostDevicesServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmHostDevicesService.connection.client.Do(req)
+	resp, err := p.VmHostDevicesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -94052,7 +94052,7 @@ func (p *VmNicServiceActivateRequest) Send() (*VmNicServiceActivateResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNicService.connection.client.Do(req)
+	resp, err := p.VmNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -94177,7 +94177,7 @@ func (p *VmNicServiceDeactivateRequest) Send() (*VmNicServiceDeactivateResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNicService.connection.client.Do(req)
+	resp, err := p.VmNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -94294,7 +94294,7 @@ func (p *VmNicServiceGetRequest) Send() (*VmNicServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNicService.connection.client.Do(req)
+	resp, err := p.VmNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -94445,7 +94445,7 @@ func (p *VmNicServiceRemoveRequest) Send() (*VmNicServiceRemoveResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNicService.connection.client.Do(req)
+	resp, err := p.VmNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -94629,7 +94629,7 @@ func (p *VmNicServiceUpdateRequest) Send() (*VmNicServiceUpdateResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNicService.connection.client.Do(req)
+	resp, err := p.VmNicService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -94926,7 +94926,7 @@ func (p *VmNicsServiceAddRequest) Send() (*VmNicsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNicsService.connection.client.Do(req)
+	resp, err := p.VmNicsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -95160,7 +95160,7 @@ func (p *VmNicsServiceListRequest) Send() (*VmNicsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNicsService.connection.client.Do(req)
+	resp, err := p.VmNicsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -95337,7 +95337,7 @@ func (p *VmNumaNodeServiceGetRequest) Send() (*VmNumaNodeServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNumaNodeService.connection.client.Do(req)
+	resp, err := p.VmNumaNodeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -95481,7 +95481,7 @@ func (p *VmNumaNodeServiceRemoveRequest) Send() (*VmNumaNodeServiceRemoveRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNumaNodeService.connection.client.Do(req)
+	resp, err := p.VmNumaNodeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -95643,7 +95643,7 @@ func (p *VmNumaNodeServiceUpdateRequest) Send() (*VmNumaNodeServiceUpdateRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNumaNodeService.connection.client.Do(req)
+	resp, err := p.VmNumaNodeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -95867,7 +95867,7 @@ func (p *VmNumaNodesServiceAddRequest) Send() (*VmNumaNodesServiceAddResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNumaNodesService.connection.client.Do(req)
+	resp, err := p.VmNumaNodesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -96063,7 +96063,7 @@ func (p *VmNumaNodesServiceListRequest) Send() (*VmNumaNodesServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmNumaNodesService.connection.client.Do(req)
+	resp, err := p.VmNumaNodesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -96260,7 +96260,7 @@ func (p *VmPoolServiceAllocateVmRequest) Send() (*VmPoolServiceAllocateVmRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmPoolService.connection.client.Do(req)
+	resp, err := p.VmPoolService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -96434,7 +96434,7 @@ func (p *VmPoolServiceGetRequest) Send() (*VmPoolServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmPoolService.connection.client.Do(req)
+	resp, err := p.VmPoolService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -96625,7 +96625,7 @@ func (p *VmPoolServiceRemoveRequest) Send() (*VmPoolServiceRemoveResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmPoolService.connection.client.Do(req)
+	resp, err := p.VmPoolService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -96782,7 +96782,7 @@ func (p *VmPoolServiceUpdateRequest) Send() (*VmPoolServiceUpdateResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmPoolService.connection.client.Do(req)
+	resp, err := p.VmPoolService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -97014,7 +97014,7 @@ func (p *VmPoolsServiceAddRequest) Send() (*VmPoolsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmPoolsService.connection.client.Do(req)
+	resp, err := p.VmPoolsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -97239,7 +97239,7 @@ func (p *VmPoolsServiceListRequest) Send() (*VmPoolsServiceListResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmPoolsService.connection.client.Do(req)
+	resp, err := p.VmPoolsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -97447,7 +97447,7 @@ func (p *VmReportedDeviceServiceGetRequest) Send() (*VmReportedDeviceServiceGetR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmReportedDeviceService.connection.client.Do(req)
+	resp, err := p.VmReportedDeviceService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -97622,7 +97622,7 @@ func (p *VmReportedDevicesServiceListRequest) Send() (*VmReportedDevicesServiceL
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmReportedDevicesService.connection.client.Do(req)
+	resp, err := p.VmReportedDevicesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -97829,7 +97829,7 @@ func (p *VmServiceAutoPinCpuAndNumaNodesRequest) Send() (*VmServiceAutoPinCpuAnd
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -97991,7 +97991,7 @@ func (p *VmServiceCancelMigrationRequest) Send() (*VmServiceCancelMigrationRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -98161,7 +98161,7 @@ func (p *VmServiceCloneRequest) Send() (*VmServiceCloneResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -98288,7 +98288,7 @@ func (p *VmServiceCommitSnapshotRequest) Send() (*VmServiceCommitSnapshotRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -98428,7 +98428,7 @@ func (p *VmServiceDetachRequest) Send() (*VmServiceDetachResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -98636,7 +98636,7 @@ func (p *VmServiceExportRequest) Send() (*VmServiceExportResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -98846,7 +98846,7 @@ func (p *VmServiceFreezeFilesystemsRequest) Send() (*VmServiceFreezeFilesystemsR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -99030,7 +99030,7 @@ func (p *VmServiceGetRequest) Send() (*VmServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -99191,7 +99191,7 @@ func (p *VmServiceLogonRequest) Send() (*VmServiceLogonResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -99368,7 +99368,7 @@ func (p *VmServiceMaintenanceRequest) Send() (*VmServiceMaintenanceResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -99564,7 +99564,7 @@ func (p *VmServiceMigrateRequest) Send() (*VmServiceMigrateResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -99765,7 +99765,7 @@ func (p *VmServicePreviewSnapshotRequest) Send() (*VmServicePreviewSnapshotRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -99933,7 +99933,7 @@ func (p *VmServiceRebootRequest) Send() (*VmServiceRebootResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -100124,7 +100124,7 @@ func (p *VmServiceRemoveRequest) Send() (*VmServiceRemoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -100260,7 +100260,7 @@ func (p *VmServiceReorderMacAddressesRequest) Send() (*VmServiceReorderMacAddres
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -100397,7 +100397,7 @@ func (p *VmServiceResetRequest) Send() (*VmServiceResetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -100588,7 +100588,7 @@ func (p *VmServiceShutdownRequest) Send() (*VmServiceShutdownResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -100851,7 +100851,7 @@ func (p *VmServiceStartRequest) Send() (*VmServiceStartResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -101044,7 +101044,7 @@ func (p *VmServiceStopRequest) Send() (*VmServiceStopResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -101230,7 +101230,7 @@ func (p *VmServiceSuspendRequest) Send() (*VmServiceSuspendResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -101394,7 +101394,7 @@ func (p *VmServiceThawFilesystemsRequest) Send() (*VmServiceThawFilesystemsRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -101585,7 +101585,7 @@ func (p *VmServiceTicketRequest) Send() (*VmServiceTicketResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -101818,7 +101818,7 @@ func (p *VmServiceExportToExportDomainRequest) Send() (*VmServiceExportToExportD
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -101996,7 +101996,7 @@ func (p *VmServiceExportToPathOnHostRequest) Send() (*VmServiceExportToPathOnHos
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -102125,7 +102125,7 @@ func (p *VmServiceUndoSnapshotRequest) Send() (*VmServiceUndoSnapshotResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -102270,7 +102270,7 @@ func (p *VmServiceUpdateRequest) Send() (*VmServiceUpdateResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmService.connection.client.Do(req)
+	resp, err := p.VmService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -102658,7 +102658,7 @@ func (p *VmSessionServiceGetRequest) Send() (*VmSessionServiceGetResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmSessionService.connection.client.Do(req)
+	resp, err := p.VmSessionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -102854,7 +102854,7 @@ func (p *VmSessionsServiceListRequest) Send() (*VmSessionsServiceListResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmSessionsService.connection.client.Do(req)
+	resp, err := p.VmSessionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -103074,7 +103074,7 @@ func (p *VmWatchdogServiceGetRequest) Send() (*VmWatchdogServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmWatchdogService.connection.client.Do(req)
+	resp, err := p.VmWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -103218,7 +103218,7 @@ func (p *VmWatchdogServiceRemoveRequest) Send() (*VmWatchdogServiceRemoveRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmWatchdogService.connection.client.Do(req)
+	resp, err := p.VmWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -103378,7 +103378,7 @@ func (p *VmWatchdogServiceUpdateRequest) Send() (*VmWatchdogServiceUpdateRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmWatchdogService.connection.client.Do(req)
+	resp, err := p.VmWatchdogService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -103602,7 +103602,7 @@ func (p *VmWatchdogsServiceAddRequest) Send() (*VmWatchdogsServiceAddResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmWatchdogsService.connection.client.Do(req)
+	resp, err := p.VmWatchdogsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -103788,7 +103788,7 @@ func (p *VmWatchdogsServiceListRequest) Send() (*VmWatchdogsServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmWatchdogsService.connection.client.Do(req)
+	resp, err := p.VmWatchdogsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -104144,7 +104144,7 @@ func (p *VmsServiceAddRequest) Send() (*VmsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmsService.connection.client.Do(req)
+	resp, err := p.VmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -104593,7 +104593,7 @@ func (p *VmsServiceAddFromConfigurationRequest) Send() (*VmsServiceAddFromConfig
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmsService.connection.client.Do(req)
+	resp, err := p.VmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -104771,7 +104771,7 @@ func (p *VmsServiceAddFromScratchRequest) Send() (*VmsServiceAddFromScratchRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmsService.connection.client.Do(req)
+	resp, err := p.VmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -104949,7 +104949,7 @@ func (p *VmsServiceAddFromSnapshotRequest) Send() (*VmsServiceAddFromSnapshotRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmsService.connection.client.Do(req)
+	resp, err := p.VmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -105147,7 +105147,7 @@ func (p *VmsServiceListRequest) Send() (*VmsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VmsService.connection.client.Do(req)
+	resp, err := p.VmsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -105328,7 +105328,7 @@ func (p *VnicProfileServiceGetRequest) Send() (*VnicProfileServiceGetResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VnicProfileService.connection.client.Do(req)
+	resp, err := p.VnicProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -105467,7 +105467,7 @@ func (p *VnicProfileServiceRemoveRequest) Send() (*VnicProfileServiceRemoveRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VnicProfileService.connection.client.Do(req)
+	resp, err := p.VnicProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -105599,7 +105599,7 @@ func (p *VnicProfileServiceUpdateRequest) Send() (*VnicProfileServiceUpdateRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VnicProfileService.connection.client.Do(req)
+	resp, err := p.VnicProfileService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -105834,7 +105834,7 @@ func (p *VnicProfilesServiceAddRequest) Send() (*VnicProfilesServiceAddResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VnicProfilesService.connection.client.Do(req)
+	resp, err := p.VnicProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -106090,7 +106090,7 @@ func (p *VnicProfilesServiceListRequest) Send() (*VnicProfilesServiceListRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.VnicProfilesService.connection.client.Do(req)
+	resp, err := p.VnicProfilesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -106277,7 +106277,7 @@ func (p *WeightServiceGetRequest) Send() (*WeightServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.WeightService.connection.client.Do(req)
+	resp, err := p.WeightService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -106413,7 +106413,7 @@ func (p *WeightServiceRemoveRequest) Send() (*WeightServiceRemoveResponse, error
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.WeightService.connection.client.Do(req)
+	resp, err := p.WeightService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -106560,7 +106560,7 @@ func (p *WeightsServiceAddRequest) Send() (*WeightsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.WeightsService.connection.client.Do(req)
+	resp, err := p.WeightsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -106720,7 +106720,7 @@ func (p *WeightsServiceListRequest) Send() (*WeightsServiceListResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.WeightsService.connection.client.Do(req)
+	resp, err := p.WeightsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -106897,7 +106897,7 @@ func (p *DomainGroupServiceGetRequest) Send() (*DomainGroupServiceGetResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DomainGroupService.connection.client.Do(req)
+	resp, err := p.DomainGroupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -107092,7 +107092,7 @@ func (p *DomainGroupsServiceListRequest) Send() (*DomainGroupsServiceListRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DomainGroupsService.connection.client.Do(req)
+	resp, err := p.DomainGroupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -107286,7 +107286,7 @@ func (p *DomainServiceGetRequest) Send() (*DomainServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DomainService.connection.client.Do(req)
+	resp, err := p.DomainService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -107509,7 +107509,7 @@ func (p *DomainUserGroupsServiceListRequest) Send() (*DomainUserGroupsServiceLis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DomainUserGroupsService.connection.client.Do(req)
+	resp, err := p.DomainUserGroupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -107694,7 +107694,7 @@ func (p *DomainUserServiceGetRequest) Send() (*DomainUserServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DomainUserService.connection.client.Do(req)
+	resp, err := p.DomainUserService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -107948,7 +107948,7 @@ func (p *DomainUsersServiceListRequest) Send() (*DomainUsersServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DomainUsersService.connection.client.Do(req)
+	resp, err := p.DomainUsersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -108196,7 +108196,7 @@ func (p *DomainsServiceListRequest) Send() (*DomainsServiceListResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.DomainsService.connection.client.Do(req)
+	resp, err := p.DomainsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -108430,7 +108430,7 @@ func (p *GroupServiceGetRequest) Send() (*GroupServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GroupService.connection.client.Do(req)
+	resp, err := p.GroupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -108611,7 +108611,7 @@ func (p *GroupServiceRemoveRequest) Send() (*GroupServiceRemoveResponse, error) 
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GroupService.connection.client.Do(req)
+	resp, err := p.GroupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -108824,7 +108824,7 @@ func (p *GroupsServiceAddRequest) Send() (*GroupsServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GroupsService.connection.client.Do(req)
+	resp, err := p.GroupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -109048,7 +109048,7 @@ func (p *GroupsServiceListRequest) Send() (*GroupsServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GroupsService.connection.client.Do(req)
+	resp, err := p.GroupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -109270,7 +109270,7 @@ func (p *SshPublicKeyServiceGetRequest) Send() (*SshPublicKeyServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SshPublicKeyService.connection.client.Do(req)
+	resp, err := p.SshPublicKeyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -109406,7 +109406,7 @@ func (p *SshPublicKeyServiceRemoveRequest) Send() (*SshPublicKeyServiceRemoveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SshPublicKeyService.connection.client.Do(req)
+	resp, err := p.SshPublicKeyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -109535,7 +109535,7 @@ func (p *SshPublicKeyServiceUpdateRequest) Send() (*SshPublicKeyServiceUpdateRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SshPublicKeyService.connection.client.Do(req)
+	resp, err := p.SshPublicKeyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -109701,7 +109701,7 @@ func (p *SshPublicKeysServiceAddRequest) Send() (*SshPublicKeysServiceAddRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SshPublicKeysService.connection.client.Do(req)
+	resp, err := p.SshPublicKeysService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -109882,7 +109882,7 @@ func (p *SshPublicKeysServiceListRequest) Send() (*SshPublicKeysServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.SshPublicKeysService.connection.client.Do(req)
+	resp, err := p.SshPublicKeysService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -110130,7 +110130,7 @@ func (p *UserOptionServiceGetRequest) Send() (*UserOptionServiceGetResponse, err
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UserOptionService.connection.client.Do(req)
+	resp, err := p.UserOptionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -110292,7 +110292,7 @@ func (p *UserOptionServiceRemoveRequest) Send() (*UserOptionServiceRemoveRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UserOptionService.connection.client.Do(req)
+	resp, err := p.UserOptionService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -110464,7 +110464,7 @@ func (p *UserOptionsServiceAddRequest) Send() (*UserOptionsServiceAddResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UserOptionsService.connection.client.Do(req)
+	resp, err := p.UserOptionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -110635,7 +110635,7 @@ func (p *UserOptionsServiceListRequest) Send() (*UserOptionsServiceListResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UserOptionsService.connection.client.Do(req)
+	resp, err := p.UserOptionsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -110872,7 +110872,7 @@ func (p *UserServiceGetRequest) Send() (*UserServiceGetResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UserService.connection.client.Do(req)
+	resp, err := p.UserService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -111065,7 +111065,7 @@ func (p *UserServiceRemoveRequest) Send() (*UserServiceRemoveResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UserService.connection.client.Do(req)
+	resp, err := p.UserService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -111216,7 +111216,7 @@ func (p *UserServiceUpdateRequest) Send() (*UserServiceUpdateResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UserService.connection.client.Do(req)
+	resp, err := p.UserService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -111544,7 +111544,7 @@ func (p *UsersServiceAddRequest) Send() (*UsersServiceAddResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UsersService.connection.client.Do(req)
+	resp, err := p.UsersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -111800,7 +111800,7 @@ func (p *UsersServiceListRequest) Send() (*UsersServiceListResponse, error) {
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.UsersService.connection.client.Do(req)
+	resp, err := p.UsersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -112065,7 +112065,7 @@ func (p *EngineKatelloErrataServiceListRequest) Send() (*EngineKatelloErrataServ
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.EngineKatelloErrataService.connection.client.Do(req)
+	resp, err := p.EngineKatelloErrataService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -112316,7 +112316,7 @@ func (p *ExternalComputeResourceServiceGetRequest) Send() (*ExternalComputeResou
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalComputeResourceService.connection.client.Do(req)
+	resp, err := p.ExternalComputeResourceService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -112545,7 +112545,7 @@ func (p *ExternalComputeResourcesServiceListRequest) Send() (*ExternalComputeRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalComputeResourcesService.connection.client.Do(req)
+	resp, err := p.ExternalComputeResourcesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -112779,7 +112779,7 @@ func (p *ExternalDiscoveredHostServiceGetRequest) Send() (*ExternalDiscoveredHos
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalDiscoveredHostService.connection.client.Do(req)
+	resp, err := p.ExternalDiscoveredHostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -113021,7 +113021,7 @@ func (p *ExternalDiscoveredHostsServiceListRequest) Send() (*ExternalDiscoveredH
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalDiscoveredHostsService.connection.client.Do(req)
+	resp, err := p.ExternalDiscoveredHostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -113274,7 +113274,7 @@ func (p *ExternalHostGroupServiceGetRequest) Send() (*ExternalHostGroupServiceGe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostGroupService.connection.client.Do(req)
+	resp, err := p.ExternalHostGroupService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -113505,7 +113505,7 @@ func (p *ExternalHostGroupsServiceListRequest) Send() (*ExternalHostGroupsServic
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostGroupsService.connection.client.Do(req)
+	resp, err := p.ExternalHostGroupsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -113745,7 +113745,7 @@ func (p *ExternalHostProviderServiceGetRequest) Send() (*ExternalHostProviderSer
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostProviderService.connection.client.Do(req)
+	resp, err := p.ExternalHostProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -113930,7 +113930,7 @@ func (p *ExternalHostProviderServiceImportCertificatesRequest) Send() (*External
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostProviderService.connection.client.Do(req)
+	resp, err := p.ExternalHostProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -114049,7 +114049,7 @@ func (p *ExternalHostProviderServiceRemoveRequest) Send() (*ExternalHostProvider
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostProviderService.connection.client.Do(req)
+	resp, err := p.ExternalHostProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -114179,7 +114179,7 @@ func (p *ExternalHostProviderServiceTestConnectivityRequest) Send() (*ExternalHo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostProviderService.connection.client.Do(req)
+	resp, err := p.ExternalHostProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -114322,7 +114322,7 @@ func (p *ExternalHostProviderServiceUpdateRequest) Send() (*ExternalHostProvider
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostProviderService.connection.client.Do(req)
+	resp, err := p.ExternalHostProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -114552,7 +114552,7 @@ func (p *ExternalHostProvidersServiceAddRequest) Send() (*ExternalHostProvidersS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostProvidersService.connection.client.Do(req)
+	resp, err := p.ExternalHostProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -114712,7 +114712,7 @@ func (p *ExternalHostProvidersServiceListRequest) Send() (*ExternalHostProviders
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostProvidersService.connection.client.Do(req)
+	resp, err := p.ExternalHostProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -114889,7 +114889,7 @@ func (p *ExternalHostServiceGetRequest) Send() (*ExternalHostServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostService.connection.client.Do(req)
+	resp, err := p.ExternalHostService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -115064,7 +115064,7 @@ func (p *ExternalHostsServiceListRequest) Send() (*ExternalHostsServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.ExternalHostsService.connection.client.Do(req)
+	resp, err := p.ExternalHostsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -115281,7 +115281,7 @@ func (p *KatelloErrataServiceListRequest) Send() (*KatelloErrataServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.KatelloErrataService.connection.client.Do(req)
+	resp, err := p.KatelloErrataService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -115537,7 +115537,7 @@ func (p *KatelloErratumServiceGetRequest) Send() (*KatelloErratumServiceGetRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.KatelloErratumService.connection.client.Do(req)
+	resp, err := p.KatelloErratumService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -115792,7 +115792,7 @@ func (p *GlusterBrickServiceGetRequest) Send() (*GlusterBrickServiceGetResponse,
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBrickService.connection.client.Do(req)
+	resp, err := p.GlusterBrickService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -116023,7 +116023,7 @@ func (p *GlusterBrickServiceRemoveRequest) Send() (*GlusterBrickServiceRemoveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBrickService.connection.client.Do(req)
+	resp, err := p.GlusterBrickService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -116178,7 +116178,7 @@ func (p *GlusterBrickServiceReplaceRequest) Send() (*GlusterBrickServiceReplaceR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBrickService.connection.client.Do(req)
+	resp, err := p.GlusterBrickService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -116386,7 +116386,7 @@ func (p *GlusterBricksServiceActivateRequest) Send() (*GlusterBricksServiceActiv
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBricksService.connection.client.Do(req)
+	resp, err := p.GlusterBricksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -116593,7 +116593,7 @@ func (p *GlusterBricksServiceAddRequest) Send() (*GlusterBricksServiceAddRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBricksService.connection.client.Do(req)
+	resp, err := p.GlusterBricksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -116802,7 +116802,7 @@ func (p *GlusterBricksServiceListRequest) Send() (*GlusterBricksServiceListRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBricksService.connection.client.Do(req)
+	resp, err := p.GlusterBricksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -117034,7 +117034,7 @@ func (p *GlusterBricksServiceMigrateRequest) Send() (*GlusterBricksServiceMigrat
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBricksService.connection.client.Do(req)
+	resp, err := p.GlusterBricksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -117239,7 +117239,7 @@ func (p *GlusterBricksServiceRemoveRequest) Send() (*GlusterBricksServiceRemoveR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBricksService.connection.client.Do(req)
+	resp, err := p.GlusterBricksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -117432,7 +117432,7 @@ func (p *GlusterBricksServiceStopMigrateRequest) Send() (*GlusterBricksServiceSt
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterBricksService.connection.client.Do(req)
+	resp, err := p.GlusterBricksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -117633,7 +117633,7 @@ func (p *GlusterHookServiceDisableRequest) Send() (*GlusterHookServiceDisableRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterHookService.connection.client.Do(req)
+	resp, err := p.GlusterHookService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -117764,7 +117764,7 @@ func (p *GlusterHookServiceEnableRequest) Send() (*GlusterHookServiceEnableRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterHookService.connection.client.Do(req)
+	resp, err := p.GlusterHookService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -117885,7 +117885,7 @@ func (p *GlusterHookServiceGetRequest) Send() (*GlusterHookServiceGetResponse, e
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterHookService.connection.client.Do(req)
+	resp, err := p.GlusterHookService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -118022,7 +118022,7 @@ func (p *GlusterHookServiceRemoveRequest) Send() (*GlusterHookServiceRemoveRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterHookService.connection.client.Do(req)
+	resp, err := p.GlusterHookService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -118171,7 +118171,7 @@ func (p *GlusterHookServiceResolveRequest) Send() (*GlusterHookServiceResolveRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterHookService.connection.client.Do(req)
+	resp, err := p.GlusterHookService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -118341,7 +118341,7 @@ func (p *GlusterHooksServiceListRequest) Send() (*GlusterHooksServiceListRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterHooksService.connection.client.Do(req)
+	resp, err := p.GlusterHooksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -118556,7 +118556,7 @@ func (p *GlusterVolumeServiceGetRequest) Send() (*GlusterVolumeServiceGetRespons
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -118772,7 +118772,7 @@ func (p *GlusterVolumeServiceGetProfileStatisticsRequest) Send() (*GlusterVolume
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -118955,7 +118955,7 @@ func (p *GlusterVolumeServiceRebalanceRequest) Send() (*GlusterVolumeServiceReba
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -119098,7 +119098,7 @@ func (p *GlusterVolumeServiceRemoveRequest) Send() (*GlusterVolumeServiceRemoveR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -119241,7 +119241,7 @@ func (p *GlusterVolumeServiceResetAllOptionsRequest) Send() (*GlusterVolumeServi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -119410,7 +119410,7 @@ func (p *GlusterVolumeServiceResetOptionRequest) Send() (*GlusterVolumeServiceRe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -119584,7 +119584,7 @@ func (p *GlusterVolumeServiceSetOptionRequest) Send() (*GlusterVolumeServiceSetO
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -119753,7 +119753,7 @@ func (p *GlusterVolumeServiceStartRequest) Send() (*GlusterVolumeServiceStartRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -119898,7 +119898,7 @@ func (p *GlusterVolumeServiceStartProfileRequest) Send() (*GlusterVolumeServiceS
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -120051,7 +120051,7 @@ func (p *GlusterVolumeServiceStopRequest) Send() (*GlusterVolumeServiceStopRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -120196,7 +120196,7 @@ func (p *GlusterVolumeServiceStopProfileRequest) Send() (*GlusterVolumeServiceSt
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -120340,7 +120340,7 @@ func (p *GlusterVolumeServiceStopRebalanceRequest) Send() (*GlusterVolumeService
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumeService.connection.client.Do(req)
+	resp, err := p.GlusterVolumeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -120558,7 +120558,7 @@ func (p *GlusterVolumesServiceAddRequest) Send() (*GlusterVolumesServiceAddRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumesService.connection.client.Do(req)
+	resp, err := p.GlusterVolumesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -120794,7 +120794,7 @@ func (p *GlusterVolumesServiceListRequest) Send() (*GlusterVolumesServiceListRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.GlusterVolumesService.connection.client.Do(req)
+	resp, err := p.GlusterVolumesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -120984,7 +120984,7 @@ func (p *OpenstackImageProviderServiceGetRequest) Send() (*OpenstackImageProvide
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackImageProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -121135,7 +121135,7 @@ func (p *OpenstackImageProviderServiceImportCertificatesRequest) Send() (*Openst
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackImageProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -121254,7 +121254,7 @@ func (p *OpenstackImageProviderServiceRemoveRequest) Send() (*OpenstackImageProv
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackImageProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -121384,7 +121384,7 @@ func (p *OpenstackImageProviderServiceTestConnectivityRequest) Send() (*Openstac
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackImageProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -121527,7 +121527,7 @@ func (p *OpenstackImageProviderServiceUpdateRequest) Send() (*OpenstackImageProv
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackImageProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -121721,7 +121721,7 @@ func (p *OpenstackImageProvidersServiceAddRequest) Send() (*OpenstackImageProvid
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageProvidersService.connection.client.Do(req)
+	resp, err := p.OpenstackImageProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -121881,7 +121881,7 @@ func (p *OpenstackImageProvidersServiceListRequest) Send() (*OpenstackImageProvi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageProvidersService.connection.client.Do(req)
+	resp, err := p.OpenstackImageProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -122058,7 +122058,7 @@ func (p *OpenstackImageServiceGetRequest) Send() (*OpenstackImageServiceGetRespo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageService.connection.client.Do(req)
+	resp, err := p.OpenstackImageService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -122258,7 +122258,7 @@ func (p *OpenstackImageServiceImportRequest) Send() (*OpenstackImageServiceImpor
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImageService.connection.client.Do(req)
+	resp, err := p.OpenstackImageService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -122452,7 +122452,7 @@ func (p *OpenstackImagesServiceListRequest) Send() (*OpenstackImagesServiceListR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackImagesService.connection.client.Do(req)
+	resp, err := p.OpenstackImagesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -122637,7 +122637,7 @@ func (p *OpenstackNetworkProviderServiceGetRequest) Send() (*OpenstackNetworkPro
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -122800,7 +122800,7 @@ func (p *OpenstackNetworkProviderServiceImportCertificatesRequest) Send() (*Open
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -122925,7 +122925,7 @@ func (p *OpenstackNetworkProviderServiceRemoveRequest) Send() (*OpenstackNetwork
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -123067,7 +123067,7 @@ func (p *OpenstackNetworkProviderServiceTestConnectivityRequest) Send() (*Openst
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -123227,7 +123227,7 @@ func (p *OpenstackNetworkProviderServiceUpdateRequest) Send() (*OpenstackNetwork
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -123458,7 +123458,7 @@ func (p *OpenstackNetworkProvidersServiceAddRequest) Send() (*OpenstackNetworkPr
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkProvidersService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -123620,7 +123620,7 @@ func (p *OpenstackNetworkProvidersServiceListRequest) Send() (*OpenstackNetworkP
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkProvidersService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -123798,7 +123798,7 @@ func (p *OpenstackNetworkServiceGetRequest) Send() (*OpenstackNetworkServiceGetR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -123951,7 +123951,7 @@ func (p *OpenstackNetworkServiceImportRequest) Send() (*OpenstackNetworkServiceI
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworkService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworkService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -124123,7 +124123,7 @@ func (p *OpenstackNetworksServiceListRequest) Send() (*OpenstackNetworksServiceL
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackNetworksService.connection.client.Do(req)
+	resp, err := p.OpenstackNetworksService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -124300,7 +124300,7 @@ func (p *OpenstackSubnetServiceGetRequest) Send() (*OpenstackSubnetServiceGetRes
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackSubnetService.connection.client.Do(req)
+	resp, err := p.OpenstackSubnetService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -124436,7 +124436,7 @@ func (p *OpenstackSubnetServiceRemoveRequest) Send() (*OpenstackSubnetServiceRem
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackSubnetService.connection.client.Do(req)
+	resp, err := p.OpenstackSubnetService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -124582,7 +124582,7 @@ func (p *OpenstackSubnetsServiceAddRequest) Send() (*OpenstackSubnetsServiceAddR
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackSubnetsService.connection.client.Do(req)
+	resp, err := p.OpenstackSubnetsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -124730,7 +124730,7 @@ func (p *OpenstackSubnetsServiceListRequest) Send() (*OpenstackSubnetsServiceLis
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackSubnetsService.connection.client.Do(req)
+	resp, err := p.OpenstackSubnetsService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -124907,7 +124907,7 @@ func (p *OpenstackVolumeAuthenticationKeyServiceGetRequest) Send() (*OpenstackVo
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeAuthenticationKeyService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeAuthenticationKeyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -125043,7 +125043,7 @@ func (p *OpenstackVolumeAuthenticationKeyServiceRemoveRequest) Send() (*Openstac
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeAuthenticationKeyService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeAuthenticationKeyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -125163,7 +125163,7 @@ func (p *OpenstackVolumeAuthenticationKeyServiceUpdateRequest) Send() (*Openstac
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeAuthenticationKeyService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeAuthenticationKeyService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -125332,7 +125332,7 @@ func (p *OpenstackVolumeAuthenticationKeysServiceAddRequest) Send() (*OpenstackV
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeAuthenticationKeysService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeAuthenticationKeysService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -125482,7 +125482,7 @@ func (p *OpenstackVolumeAuthenticationKeysServiceListRequest) Send() (*Openstack
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeAuthenticationKeysService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeAuthenticationKeysService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -125659,7 +125659,7 @@ func (p *OpenstackVolumeProviderServiceGetRequest) Send() (*OpenstackVolumeProvi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -125810,7 +125810,7 @@ func (p *OpenstackVolumeProviderServiceImportCertificatesRequest) Send() (*Opens
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -125939,7 +125939,7 @@ func (p *OpenstackVolumeProviderServiceRemoveRequest) Send() (*OpenstackVolumePr
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -126069,7 +126069,7 @@ func (p *OpenstackVolumeProviderServiceTestConnectivityRequest) Send() (*Opensta
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -126212,7 +126212,7 @@ func (p *OpenstackVolumeProviderServiceUpdateRequest) Send() (*OpenstackVolumePr
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeProviderService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeProviderService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -126438,7 +126438,7 @@ func (p *OpenstackVolumeProvidersServiceAddRequest) Send() (*OpenstackVolumeProv
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeProvidersService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -126638,7 +126638,7 @@ func (p *OpenstackVolumeProvidersServiceListRequest) Send() (*OpenstackVolumePro
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeProvidersService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeProvidersService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -126815,7 +126815,7 @@ func (p *OpenstackVolumeTypeServiceGetRequest) Send() (*OpenstackVolumeTypeServi
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeTypeService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeTypeService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
@@ -126990,7 +126990,7 @@ func (p *OpenstackVolumeTypesServiceListRequest) Send() (*OpenstackVolumeTypesSe
 	}
 	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
 	// Send the request and wait for the response
-	resp, err := p.OpenstackVolumeTypesService.connection.client.Do(req)
+	resp, err := p.OpenstackVolumeTypesService.connection.Client.Do(req)
 	if err != nil {
 		return nil, err
 	}
