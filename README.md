@@ -11,6 +11,6 @@ To use the SDK you should import ovirtsdk package as follows:
 
 ```go
 import (
-    ovirtsdk "github.com/ovirt/go-ovirt"
+    ovirtsdk "github.com/yusufozturk/go-ovirt"
 )
 ```
