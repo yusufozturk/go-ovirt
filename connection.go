@@ -48,17 +48,31 @@ type Connection struct {
 	caFile    string
 	caCert    []byte
 	headers   map[string]string
+
 	// Debug options
 	logFunc LogFunc
 
+	// Properties
 	kerberos bool
 	timeout  time.Duration
 	compress bool
+
 	// http client
 	client *http.Client
+
 	// SSO attributes
 	ssoToken     string
 	ssoTokenName string
+}
+
+// GetClient returns the http client
+func (c *Connection) GetClient() *http.Client {
+	return c.client
+}
+
+// GetClient returns the http client
+func (c *Connection) SetClient(_client *http.Client) {
+	c.client = _client
 }
 
 // URL returns the base URL of this connection.
